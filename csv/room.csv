@@ -1,0 +1,1001 @@
+id;room_number;room_name;floor;building_id
+0;74z;Egyptian Mau;1;8
+1;47z;Mamushi Snake;1;7
+2;59;Mexican Black Kingsnake;1;3
+3;10z;Jackrabbit;1;5
+4;989c;Harrier;2;9
+5;8m;Sumatran Tiger;3;6
+6;3p;Tyrannosaurus Rex;2;3
+7;9l;Gazelle;3;1
+8;285;Rhesus Macaque;2;8
+9;7s;Squash Beetle;1;3
+10;668g;Javan Rhinoceros;2;1
+11;70;Leopard;1;5
+12;8;Rock Crab;1;8
+13;403c;Camel Cricket;3;3
+14;213;Yellow-Eyed Penguin;3;2
+15;520i;Binturong;1;4
+16;2;Fishing Cat;1;4
+17;0m;White Shark;3;6
+18;6;Atlas Moth;3;7
+19;9;Writing Spider;2;4
+20;953n;Florida Panther;1;4
+21;8p;Beefalo;2;7
+22;46c;Golden Newfie;2;4
+23;153;Deer Tick;3;5
+24;0d;Machaeroides;1;3
+25;3;Chinese Paddlefish;3;5
+26;40;African Tree Toad;3;0
+27;286;Northern Cardinal;3;7
+28;1;Herrerasaurus;3;1
+29;810;Swedish Lapphund;1;4
+30;6;Amargasaurus;0;7
+31;7f;Doxiepoo;2;5
+32;9;Taipan;0;5
+33;412;Red Aphids;3;1
+34;6l;Shastasaurus;0;5
+35;5;Mekong Giant Catfish;3;9
+36;191x;Telescope Fish;1;0
+37;89;Tyrannosaurus Rexlcaich;0;6
+38;690;Cory Catfish;0;0
+39;3d;Cookiecutter Shark;2;1
+40;60x;Texas Rat Snake;1;1
+41;963d;Opah;0;5
+42;073;Gopher Tortoise;0;5
+43;229p;Wattled Jacana;2;8
+44;396;Diplodocus;2;4
+45;378;Kooikerhondje;0;2
+46;5e;Pine Marten;2;3
+47;6s;Texas Indigo Snake;3;6
+48;544u;Bison;0;3
+49;042;Cow;3;1
+50;54;Tenterfield Terrier;3;9
+51;4v;Honey Buzzard;2;0
+52;8e;Lawnmower Blenny;1;2
+53;981;Treeing Tennessee Brindle;1;3
+54;94;Dwarf Boa;1;0
+55;0;Desert Kingsnake;3;3
+56;501;Apple Moth;3;1
+57;29;Sand Dollar;2;2
+58;83;Giant African Land Snail;3;9
+59;2u;Snail;1;8
+60;8;Keel-Billed Toucan;0;8
+61;563;Rove Beetle;2;3
+62;80;Parakeet;3;0
+63;233;Texas Garter Snake;0;9
+64;964q;Pygora Goat;1;4
+65;81p;Cotton-top Tamarin;2;3
+66;1i;Escolar;1;3
+67;73;Livyatan;2;0
+68;2;Blue Iguana;3;8
+69;235c;Lion;2;1
+70;201;Giant Panda Bear;0;2
+71;43c;Mud Snake;2;4
+72;948d;Cephalaspis;3;2
+73;6a;Poochon;0;4
+74;78;Pronghorn;0;0
+75;589;Humpback Whale;1;1
+76;8;Pademelon;1;5
+77;230l;Havamalt;2;7
+78;77;Sealyham Terrier;2;1
+79;02p;Cactus Mouse;1;9
+80;4c;Saber-Toothed Tiger;1;6
+81;057;Squash Beetleguu;1;3
+82;4f;Earwig;2;9
+83;9;Hawaiian Monk Seal;2;1
+84;113;Eastern Hognose Snake;1;2
+85;9d;Woma python;1;7
+86;64r;Anatolian Shepherd Dog;0;2
+87;89;Peagle;1;3
+88;623v;Cowcmx;3;1
+89;5p;Platinum Arowana;2;4
+90;8s;Tapir;1;8
+91;00;Biscuit Beetle;3;5
+92;2;Douc;3;9
+93;08w;Northern Jacana;3;6
+94;8z;Chinese Alligator;1;5
+95;350;Hercules Beetle;3;6
+96;756;Arctotherium;3;9
+97;472v;Guinea Pig;2;6
+98;89;Snow Bunting;1;7
+99;6;Goat;0;5
+100;152;English Cocker Spaniel;3;4
+101;89u;Frog;3;3
+102;80;African Palm Civet;2;0
+103;2b;Beetle;2;1
+104;4;Bredl’s Python;0;9
+105;86;Red-Shouldered Hawk;0;6
+106;683;King Eider;1;7
+107;441;Termite;1;0
+108;0;Umbrellabird;3;2
+109;376;Panthera atrox (American Lion);1;8
+110;77;Bichir;0;2
+111;6p;Banded Water Snake;3;3
+112;69u;Elasmotherium;1;1
+113;9u;Sea Slug;3;5
+114;868;Mamba;1;0
+115;7j;Tsetse Fly;0;8
+116;4;Earwigddsbm;1;1
+117;9;Snowberry Clearwing Moth;1;1
+118;20;American Bulldog;1;0
+119;0n;Moon Jellyfish;0;6
+120;1x;Orang-utan;2;2
+121;4;Galapagos Shark;2;9
+122;77;Weimardoodle;3;3
+123;44x;Thanatosdrakon;2;8
+124;70;Australopithecus;2;2
+125;3;Bolivian Anaconda;2;7
+126;30;Jackal;2;3
+127;08;Freshwater Sunfish;0;6
+128;2;American Leopard Hound;2;7
+129;030;Havashire;3;8
+130;1;Sable Ferret;0;4
+131;39;Escolarlgqce;3;7
+132;9i;Goldfish;2;9
+133;28e;Cottonmouth;2;5
+134;1e;Silver Dollar;3;2
+135;9;Cave Bear;0;5
+136;52;Rock Python;0;6
+137;36;Rockfish;0;7
+138;000h;Sheepshead Fish;1;5
+139;71h;Green Sunfish;2;2
+140;04q;Husky Jack;1;7
+141;044l;Giant House Spider;0;4
+142;24;Greater Swiss Mountain Dog;0;4
+143;2;Dunnock;0;7
+144;437e;Squid;2;2
+145;35m;Siberian Husky;3;9
+146;072q;Moccasin Snake;3;3
+147;2;Mosquito;2;2
+148;364c;Eastern Diamondback Rattlesnake;2;6
+149;72h;Steller’s Sea Cow;3;7
+150;1;Scarlet Macaw;0;9
+151;2l;Labradoodle;1;3
+152;227;Irish Doodle;2;8
+153;002d;Quokka;2;2
+154;8;Patas Monkey;3;5
+155;4h;Chiton;2;3
+156;5;Mackenzie Wolf;0;7
+157;195h;Siberian;0;4
+158;51;Whale Shark;0;8
+159;144j;Thylacoleo;0;5
+160;72s;Turkey Vulture;2;2
+161;49h;Armadillo Lizard;1;9
+162;482m;King Crab;0;4
+163;8;Kangal Shepard Dog;2;3
+164;867a;Stupendemys;2;7
+165;1;Texas Rat Snakeclymue;1;7
+166;86;Curly Hair Tarantula;2;2
+167;7e;Frug;1;4
+168;43;Cory Catfishrpvklkdpm;1;6
+169;48d;Tick;1;2
+170;132;Pomchi;3;6
+171;39u;Snowflake Eel;3;8
+172;77y;Eurasian Sparrowhawk;1;3
+173;790;Smooth Snake;0;4
+174;3;Towhee;2;9
+175;6;Forest Cobra;3;5
+176;877k;Jewel Beetle ;2;6
+177;6p;Elegant Tern;2;3
+178;24g;Hammerhead Shark;2;2
+179;0a;Peekapoo;3;3
+180;004;Beagador;2;3
+181;394p;Giant Beaver;1;8
+182;873x;Sarkastodon;0;0
+183;00c;Tornjak;3;7
+184;382i;Australian Cattle Dog;1;4
+185;23;Marsh Frog;2;2
+186;3;Red Deer;0;5
+187;4b;Cat Snake;1;6
+188;94;Mole Snake;1;6
+189;0;English Shepherd;1;3
+190;4;Doucpiwhh;3;0
+191;68b;Corkie;2;1
+192;2;Kodkod;0;8
+193;8y;Mini Labradoodle;3;6
+194;91p;Fox Snakes;3;4
+195;7n;Caiman;1;5
+196;52;Olive Sea Snake;3;5
+197;1;Megalania;0;8
+198;7;Picardy Spaniel;1;2
+199;2;Dandie Dinmont Terrier;3;6
+200;540q;Bull Shark;3;4
+201;9f;Marine Iguana;2;4
+202;762;Masked Palm Civet;1;6
+203;5g;Lionkhija;0;0
+204;451;Black Wasp;0;1
+205;536;Havanese;2;2
+206;11;Eastern Bluebird;3;4
+207;7o;Mule;1;0
+208;921;Giant House Spideroq;1;2
+209;35x;Triggerfish;1;1
+210;6;Cockle;3;0
+211;543;Merganser;1;2
+212;664o;Shiranian;1;9
+213;826;Ornithomimus;0;7
+214;73;Clock Spider;1;4
+215;0;Olive Baboon;0;3
+216;86;Lappet-faced Vulture;0;5
+217;31;Galapagos Sharktb;1;3
+218;50;Rim Rock Crowned Snake;0;5
+219;06;Gorilla;0;1
+220;0;Barn Swallow;0;9
+221;383d;Tailless Whip Scorpion;1;6
+222;4;Eastern Rat snake;1;8
+223;36j;Sea Roach;1;7
+224;85t;Volpino Italiano;1;9
+225;943;Welsh Terrier;2;9
+226;185;Torkie;3;4
+227;3;Giant Clam;3;9
+228;9;European Polecat;0;0
+229;761;Birman;2;5
+230;95s;Yellowthroat;0;2
+231;628a;Pomeagle;2;5
+232;4h;Human;3;5
+233;4e;King Cobra;0;8
+234;38a;Cocker Spaniel;2;5
+235;959y;Red Aphidslqxjku;0;3
+236;4;Parrotlet;0;1
+237;30t;Brown Tree Snake;0;6
+238;2z;Amazon River Dolphin (Pink Dolphin);2;1
+239;7k;Dolphin;2;8
+240;25u;Yeti Crab;0;9
+241;5e;Hagfish;1;6
+242;3;Pheasant;0;5
+243;859h;Snowy Owl;2;0
+244;37z;Jackabee;2;6
+245;7;Labradoodleub;2;6
+246;19x;Sun Bear;1;1
+247;877;Saanen Goat;3;5
+248;5h;Hobo Spider;3;0
+249;5;Bandicoot;1;1
+250;659t;Burrowing Frog;1;4
+251;30y;Viper;0;4
+252;533u;Saddleback Caterpillar;0;5
+253;7;Green Bee-Eater;3;5
+254;773y;Hummingbird;1;7
+255;967;Wheaten Terrier;3;2
+256;3;Golden Irish;3;5
+257;137;Black Widow Spider;1;9
+258;752;Mullet Fish;0;4
+259;04w;Junglefowl;0;4
+260;114;Rainbow Boa;0;5
+261;69l;King Eiderqrrqtaq;3;9
+262;60;Codfish;1;3
+263;02k;Yokohama chicken;1;5
+264;638;Superworm;2;0
+265;481i;Gray Catbird;0;2
+266;3;Bull Terrier;0;5
+267;0j;Root Aphids;2;0
+268;1;Silky Terrier;1;9
+269;509;Fox Squirrel;2;7
+270;31k;Estrela Mountain Dog;2;2
+271;5w;Yokohama chickenvta;3;2
+272;011s;English Bulldog;0;5
+273;708;Eastern Glass Lizard;3;5
+274;663;Olive Baboonvcewogxx;0;5
+275;88;Common Furniture Beetle;2;4
+276;128s;Death Adder;2;4
+277;75z;Madagascar Jacana;3;5
+278;7o;American Hairless Terrier;2;0
+279;6;Humboldt Squid;3;2
+280;583;Arizona Coral Snake;2;4
+281;6p;Keagle;0;7
+282;57;Hawk Moth Caterpillar;0;1
+283;70;Black-Capped Chickadee;3;0
+284;380p;Oriental Dwarf Kingfisher;1;0
+285;485;American Pygmy Goat;0;6
+286;3;Rat Snakes;0;0
+287;7;Horned Viper;1;7
+288;81q;Flounder Fish;2;4
+289;330;Lizard;1;2
+290;99b;Cuban Boa;0;9
+291;66r;Swedish Elkhound;1;3
+292;841u;Arctodus;1;7
+293;9;Kitefin Shark;2;8
+294;00;Chinese Alligatorfnmbfkyl;3;8
+295;4;Bearded Collie;2;1
+296;45m;Pitador;3;8
+297;5u;Caracal;3;0
+298;05;Treecreeper;3;9
+299;30;Yak;1;7
+300;9y;Wattled Jacanaftdlr;1;6
+301;3;Basenji Dog;0;2
+302;617;Eyelash Viper;1;3
+303;699y;Sparrow;2;9
+304;96b;Chipping Sparrow;1;0
+305;6e;Corn Snake;2;6
+306;3;Smooth Snakegvooskst;1;5
+307;48;Indian Rhinoceros;0;6
+308;50;Kestrel;3;1
+309;389;Caiman Lizard;3;7
+310;8;Fishing Catbhpr;2;3
+311;0;Titanoboa;1;0
+312;676u;Affenpinscher;1;7
+313;49s;Green Snake;2;2
+314;3;Ocelot;0;5
+315;415z;Western Lowland Gorilla;1;1
+316;82f;Goberian;0;9
+317;24;Thrush;2;5
+318;98o;Oarfish;0;3
+319;642;Chickadee;1;0
+320;379;Eskipoo;0;5
+321;807;Spider Beetle;0;9
+322;79y;Hare;0;6
+323;441k;Doxiepooiqnvhngy;0;2
+324;987;Crappie Fish;0;6
+325;36q;Formosan Mountain Dog;1;9
+326;1e;Cuckoo;3;4
+327;330a;Titan Beetle;2;1
+328;27d;African Wild Dog;0;2
+329;6;Masiakasaurus;3;2
+330;4m;Blacktip Reef Shark;0;5
+331;767;Brown-banded Cockroach;1;6
+332;1;Peacock;0;9
+333;0;Zebra Tarantula;1;1
+334;38s;Labradane;1;3
+335;68u;Fruggnhuii;0;7
+336;83n;House Sparrow (English Sparrow);3;5
+337;9g;Keelback;2;7
+338;39z;Red Deervhfgy;2;0
+339;86;Locust;1;1
+340;0;Sable Black German Shepherd;3;8
+341;765;Ocelotikmw;2;3
+342;66c;Dhole;0;8
+343;0v;Crucian Carp;1;6
+344;36p;Mexican Eagle (Northern crested caracara);0;9
+345;68;Thylacosmilus;1;7
+346;5;Barb;3;4
+347;918;Finnish Spitz;1;3
+348;464g;Black-Footed Ferret;0;7
+349;138;Golden Shepherd;0;8
+350;90i;Gentoo Penguin;2;3
+351;806v;Asian Longhorn Beetle;1;3
+352;53e;Common Carp;0;7
+353;336;Dusky Dolphin;2;6
+354;00o;Gollie;2;1
+355;52;Boxfish;3;7
+356;2v;Cesky Terrier;3;0
+357;6;Desmostylus;1;1
+358;150o;Arizona Coral Snakenjwpmr;2;5
+359;469w;American Cocker Spaniel;3;9
+360;86;Pool Frog;3;4
+361;4h;Habu Snake;2;2
+362;4c;Elephant Seal;3;0
+363;52z;American Cocker Spanielqvvg;1;2
+364;2;Jabiru;3;3
+365;767j;Ibex;0;8
+366;8;Arctic Char;3;0
+367;38;Dinofelis;3;4
+368;763j;Orang-utankaeblxuj;1;8
+369;77w;Ring-billed Gull;0;7
+370;91;Beago;2;0
+371;97m;Tetra;1;1
+372;6m;Huntsman Spider;0;7
+373;99;Crow;0;7
+374;332;Treeing Walker Coonhound;0;5
+375;4x;Eastern Brown Snake;3;6
+376;8z;Shepweiler;2;3
+377;742e;Jungle Carpet Python;1;9
+378;7a;White-Tailed Eagle;1;0
+379;0;Hardhead Catfish;2;1
+380;1;Miki;3;9
+381;7;Indian Rhinocerosyroacd;0;8
+382;5b;African Wild Dogewidh;0;1
+383;9;Bearded Dragon;3;7
+384;38f;Thylacosmilusgbdfdxahs;3;3
+385;6a;Bed Bugs;2;8
+386;78q;Bull Sharkju;2;4
+387;521;Racer Snake;3;4
+388;01;Galapagos Tortoise;2;1
+389;29f;Hooded Seal;3;5
+390;556d;Labahoula;1;7
+391;44d;English Toy Terrier;1;8
+392;35v;Massasauga;0;5
+393;4m;Crucian Carpbrak;0;7
+394;07;Bolivian Anacondaziy;1;6
+395;474g;European Robin;0;4
+396;42j;Silky Terriersgzbwyefc;2;7
+397;59;American Foxhound;2;4
+398;2;Dorkie;3;5
+399;1;Moth;3;2
+400;88k;Horned Adder;1;3
+401;4;German Shorthaired Pointer;3;7
+402;3x;Ivory-billed woodpecker;0;6
+403;813d;Red Aphidsnqs;2;8
+404;685;Horned Frog;3;9
+405;429o;Lungfish;3;6
+406;0;Herrerasaurusigpirhcs;3;0
+407;2;Sunset Ball Python;2;0
+408;687y;Biscuit Beetlecumg;0;3
+409;983;Megalaniaanwl;1;6
+410;3s;Rattlesnake;2;4
+411;46b;Fennec Fox;1;0
+412;7;Mosasaurus;3;7
+413;97;Indianmeal Moth;2;1
+414;70;Smooth Fox Terrier;1;5
+415;8o;Transylvanian Hound;0;0
+416;091i;Oriental Cockroach;2;9
+417;509t;Bearded Vulture;3;5
+418;4i;Starfish;2;7
+419;086;Powderpost Beetle;3;3
+420;851c;Armadillo;0;0
+421;28;Beaver;3;0
+422;35f;Banjo Catfish;1;9
+423;201b;Flying Lemur;2;3
+424;437;Rove Beetlehypba;1;9
+425;4;Southern Hognose Snake;0;2
+426;8;Water Buffalo;2;0
+427;402d;Jackdaw;0;3
+428;38;Gastornis;3;0
+429;853;Compsognathus;2;4
+430;9;Sand Viper;3;1
+431;833;Dormouse;2;1
+432;597o;Sand Crab;3;2
+433;091;Rockfishvlyphij;1;6
+434;820;Burrowing Owl;2;7
+435;6;Southern Pacific Rattlesnake;0;3
+436;26j;Simbakubwa;0;6
+437;78;Hornbill;0;5
+438;4z;Barn Swallowblct;3;5
+439;57;Deutsche Bracke;0;0
+440;6i;Hoary Bat;3;5
+441;730;Hellbender;2;9
+442;81z;Keel-Billed Toucanekos;1;0
+443;580d;Russell Terrier;2;3
+444;991;Cava Tzu;2;7
+445;460;Sugar Glider;2;2
+446;809i;Long-Haired Rottweiler;2;8
+447;627;American Pugabull;1;3
+448;520k;Anglerfish;2;9
+449;299x;Sun Beargwauyyk;2;7
+450;135;Wandering Albatross;0;5
+451;832c;Ural owl;2;8
+452;9a;Racer Snakeosl;2;5
+453;51;Pool Frogtsv;2;2
+454;24s;Vine Snake;2;1
+455;1f;Wolf Snake;1;5
+456;2u;Tortoise;3;9
+457;5o;Mealybug;3;2
+458;2y;Texas Spiny Lizard;1;0
+459;925;Bladefin Basslet;0;4
+460;292;Anteosaurus;1;2
+461;491e;Yokohama chickenjewy;2;7
+462;335;Kiwi;3;8
+463;8;Leopard Frog;1;9
+464;0;Tylosaurus;2;8
+465;369r;West Siberian Laika;1;5
+466;78;Weaver Bird;2;8
+467;220;Tiger Salamander;0;9
+468;862;Octopus;0;9
+469;650;Waimanu;1;5
+470;63n;Psittacosaurus;2;4
+471;208;Western Lowland Gorillalhcqlxx;2;9
+472;344v;Dobsonfly;0;4
+473;936k;Football Fish;3;3
+474;65;French Bulldog;0;4
+475;4n;Elasmotheriumourbf;2;3
+476;157x;Junglefowldosyogns;1;5
+477;44;Booby;3;7
+478;126;Deinosuchus;1;0
+479;5z;Winter Moth;1;4
+480;8;Olm;2;2
+481;6p;Water Bug;0;6
+482;09;Kangal Shepard Dogjaqvla;0;7
+483;6;Yarara;2;3
+484;92t;Vaquita;3;3
+485;04;Eastern Diamondback Rattlesnakelraeckwg;3;2
+486;015j;American Foxhoundnosirzwj;2;9
+487;8f;Fishing Catzntoouu;3;4
+488;7r;Argentavis Magnificens;2;9
+489;546;Terror Bird;1;1
+490;0;Highland Cattle;0;0
+491;695i;Eastern Woodrat;0;8
+492;996;Centipede;1;7
+493;93m;Numbat;3;3
+494;63;Egret;2;1
+495;81;French Lop;0;7
+496;276r;Red-Bellied Woodpecker;2;9
+497;976;Wrought Iron Butterflyfish;1;8
+498;787h;Pool Froghwlbz;3;9
+499;172;Eastern Woodratkqapsxro;3;5
+500;388;Beagadormcrrcl;1;7
+501;6;Tarsier;2;1
+502;4x;Green Anaconda;2;9
+503;61q;Belgian Tervuren;2;5
+504;904;Coastal Taipan;2;2
+505;5d;Galapagos Sharkqbcrw;1;6
+506;748;Hornbillhcawpw;2;3
+507;881;Bisonfvrkmeznb;1;6
+508;298h;Spinner Shark;0;7
+509;26;Crab-Eating Macaque;2;8
+510;700e;Forest Cobraqsyeoziq;3;9
+511;8;White Butterfly;3;3
+512;9;Larder Beetle;2;9
+513;883;White-tail deer;3;4
+514;3l;Giant House Spiderrkeznvlua;0;1
+515;450l;Vinegaroon;0;5
+516;55;Caribou;1;8
+517;1v;Groundhog (Woodchuck);1;7
+518;381;Eel catfish;3;7
+519;61;African Civet;1;6
+520;239k;Sand Dollarbhmoyqqfx;2;9
+521;79n;Night Snake;2;2
+522;7;Burmese Python;0;7
+523;393;Freshwater Eel;1;3
+524;5c;Turkey;0;3
+525;72;Emperor Goose;2;8
+526;595;Toxodon;3;8
+527;12t;Armadillomldrxbqf;2;7
+528;06;Koolie;2;5
+529;678;Havapoo;2;3
+530;7n;Spinone Italiano;1;2
+531;8r;Africanized bee (killer bee);0;8
+532;497;Kangaroo;2;3
+533;459;Assassin Bug;1;3
+534;423;Xeme (Sabine’s Gull);0;5
+535;2;Angelfish;3;6
+536;593g;Worm Snake;3;3
+537;61;Roe Deer;0;7
+538;8o;Braque Francais;3;9
+539;758m;Eastern Gorilla;3;5
+540;132;Cactus Mouseznre;0;3
+541;423;Albino (Amelanistic) Corn Snake;0;9
+542;83;Bobcat;3;1
+543;1;Western Hognose Snake;3;9
+544;884n;Nigerian Goat;1;7
+545;488b;Afghan Hound;2;1
+546;8z;Blue Belly Lizard;1;2
+547;65o;Grapevine Beetle;3;9
+548;84;Anaconda;3;6
+549;009;Blacktip Reef Sharkwp;0;7
+550;985y;Flea;2;8
+551;992;Kestrelumevxlhbx;3;6
+552;8c;Australian Retriever;2;8
+553;877;Mole Snakegu;3;7
+554;29;Western Tanager;3;9
+555;1;Gargoyle Gecko;3;9
+556;43f;Harbor Seal;2;8
+557;8z;American Dog Tick;2;6
+558;1;Shih Poo;0;0
+559;54;Doedicurus;0;7
+560;286u;Titan Beetlebjp;0;9
+561;288;Honduran White Bat;0;3
+562;14;Cockatiel;1;1
+563;321r;Dandie Dinmont Terriergam;3;9
+564;26r;American Cocker Spanielbg;3;2
+565;1h;Transylvanian Houndlzev;0;5
+566;522b;Pangolin;3;9
+567;15;Klipspringer;0;9
+568;879d;Pine Snake;1;0
+569;85;Pika;1;7
+570;043;Arapaima;3;3
+571;83o;Longfin Mako Shark;2;5
+572;756q;Arctic Fox;1;0
+573;792;Entlebucher Mountain Dog;2;9
+574;90d;Cocker Spanielqxrbl;1;4
+575;460;Yellow-Bellied Sea Snake;1;6
+576;0k;Keta Salmon;3;8
+577;214;Mini Lop;3;1
+578;5;African Forest Elephant;1;5
+579;564w;American Toad;0;8
+580;64;Monkey;2;4
+581;37;Teddy Roosevelt Terrier;1;5
+582;694;Dunnockdbwpxqy;3;6
+583;1m;Herring;0;6
+584;263w;Muntjac;1;8
+585;6j;Avocet;2;7
+586;621;Hamburg Chicken;0;6
+587;4;De Kay’s Brown Snake;0;1
+588;836;Grasshopper;2;4
+589;360;Cinnamon Bear;2;9
+590;9q;Red Kite;2;2
+591;304q;Zebra;1;3
+592;5j;Elasmotheriumtgagyocs;1;8
+593;152;Horned Frogwrwqf;3;5
+594;9;Evening Grosbeak;3;4
+595;95;Fruit Fly;0;6
+596;2o;Sea Eagle;2;8
+597;391;Star-nosed mole;3;7
+598;086;Japanese Spitz;0;9
+599;87s;Ocelotnejckl;2;7
+600;16;Pictus Catfish;2;9
+601;66;Pond Skater;3;8
+602;1;Humboldt Squidncydze;2;4
+603;988;Sand Viperko;2;6
+604;1;Unau (Linnaeus’s Two-Toed Sloth);0;3
+605;65p;Mountain Gorilla;3;5
+606;7;American Staffordshire Terrier;1;0
+607;03k;Koi Fish;2;1
+608;9;Cooper’s Hawk;3;7
+609;7;Flying Snake;0;7
+610;8;Gopher Tortoiseytzyga;1;7
+611;38k;Havamaltau;0;8
+612;513y;Alpine Goat;0;1
+613;06g;Arctic Foxctyzcgb;0;4
+614;270;Frigatebird;2;1
+615;09b;Purple Tarantula;3;8
+616;57p;Masiakasauruslgx;1;1
+617;718c;Night Snakexoj;2;6
+618;71g;Western Hognose Snakexbkyuh;0;5
+619;14;Pygmy Shark;0;5
+620;037;Maned Wolf;0;0
+621;036;Pink-Necked Green Pigeon;2;8
+622;49;Osprey;3;4
+623;3l;Schnoodle;2;7
+624;844p;German Spitz;1;8
+625;5d;Turkish Angora;3;6
+626;9r;Petit Basset Griffon Vendéen;2;9
+627;3;Whippet;2;9
+628;08;Beluga Sturgeon;2;9
+629;21a;Cheagle;3;9
+630;0t;Worm Snakedi;3;5
+631;82g;Armored Catfish;2;9
+632;9a;Yararabjreq;3;0
+633;1;Surgeonfish;3;2
+634;55x;Stag Beetle;1;8
+635;5t;Grasshopper Mouse;1;3
+636;9;Doxle;3;5
+637;114;Sauropoda;2;2
+638;75a;Chimaera;1;4
+639;1;Mini Lopvcynu;0;1
+640;727;Olive Sea Snakeqf;1;0
+641;65e;Eagle;1;9
+642;859;Olmznxzx;2;3
+643;33w;House wren;2;5
+644;937;Kudu;2;3
+645;9q;Myna Bird;0;5
+646;47r;Locustzpizvqw;2;0
+647;9s;Polecat;0;3
+648;1y;Kookaburra;0;2
+649;314u;Dutch Rabbit;1;8
+650;31;Armadillovl;0;4
+651;4;Irish Elk;2;7
+652;056p;Elephant Sealikg;0;1
+653;0;Pelagornithidae;2;4
+654;477;Virgin Islands Dwarf Gecko;3;5
+655;6l;Bloodhound;3;0
+656;700j;Muttaburrasaurus;0;9
+657;36;Spinosaurus;1;6
+658;44;Eastern Racer;2;7
+659;424r;Whinchat;1;4
+660;93m;Habu Snakeyysxsse;1;9
+661;38;Boelen’s python;2;3
+662;04i;Dragonfly;1;7
+663;233e;Gray Catbirdbjffi;0;9
+664;87;Ural owlqxcpqjem;0;1
+665;061r;Indian Rhinoceroshtzleld;0;2
+666;2i;Finnish Spitzdoqiaxdjr;1;2
+667;048;Huskador;0;1
+668;182h;Bark Scorpion;0;1
+669;5i;Cheagleshp;3;0
+670;07f;Norway Rat;0;3
+671;65;Crested Penguin;2;0
+672;84;Snapping Turtle;1;1
+673;3i;Imperial Moth;2;2
+674;0;Cockleswz;3;2
+675;8;Texas Coral Snake;1;5
+676;65;Donkey;1;4
+677;570;Megamouth Shark;1;5
+678;718l;Maltipoo;3;6
+679;4z;Great Plains Rat Snake;3;1
+680;851s;Giant House Spideramgfx;1;1
+681;50;Basset Fauve de Bretagne;0;3
+682;827x;Shoebill Stork;3;5
+683;955x;Tufted Titmouse;3;8
+684;5;Borneo Elephant;1;8
+685;6t;Waimanujaswa;3;1
+686;50;Northern Screamer;0;5
+687;2;Mourning Dove;1;4
+688;918r;Moccasin Snakeik;1;1
+689;98;American Water Spaniel;2;4
+690;9v;Bongo;1;4
+691;26d;Pocket Beagle;3;4
+692;36;Phytosaurs;2;0
+693;77u;Asian Carp;3;2
+694;50g;False Water Cobra;3;6
+695;9n;Frenchton;2;3
+696;9;Wels Catfish;1;8
+697;979a;Woolly Monkey;3;1
+698;269;Siberian Huskyxxdlzrij;3;9
+699;39;Spider Wasp;3;2
+700;4;King Penguin;1;4
+701;26;Harris Hawk;3;0
+702;07;Sugar Glidermsy;0;9
+703;14;Russian Bear Dog;0;3
+704;6;Labout’s Fairy Wrasse;3;8
+705;86z;Ferruginous Hawk;0;8
+706;37;Sidewinder;2;4
+707;34;Elephant Beetle;2;0
+708;688t;Cat Snakerx;2;4
+709;6;Summer Tanager;3;9
+710;743;Spinone Italianokwo;2;9
+711;498;Eastern Diamondback Rattlesnakeoawafe;0;1
+712;09;Monkfish;0;9
+713;97;Rough Earth Snake;0;1
+714;2g;Suchomimus;2;4
+715;454d;Saint Shepherd;1;4
+716;322;Green Heron;2;0
+717;95;Eastern Gorillameen;1;2
+718;26s;Sand Viperym;0;0
+719;4;European Bee-Eater;0;6
+720;70r;King Vulture;1;8
+721;93n;Carpenter Ant;0;8
+722;774;Irish WolfHound;2;2
+723;762b;Cashmere Goat;3;7
+724;1q;Hyaenodon;2;5
+725;34;Harlequin Snake;0;0
+726;78i;Nightjar;0;1
+727;797x;Olmkvtvipqce;0;1
+728;35;Tasmanian Tiger;1;4
+729;85;Saanen Goatlw;1;7
+730;9;Irish Terrier;0;7
+731;0c;Platybelodon;3;2
+732;065c;Red Kiteltzayt;1;6
+733;98b;Woodlouse;2;0
+734;8;American Foxhoundmpaqfoif;0;4
+735;69e;Philippine Cobra;1;2
+736;6k;Gaboon Viper;1;7
+737;242l;Water Dragon;3;0
+738;81;Wood Turtle;0;3
+739;61;Florida Pantherunsl;1;6
+740;4h;Whale Sharkzgf;3;8
+741;31;Japanese Chin;1;2
+742;321s;Silky Terriervduyknx;3;9
+743;0e;Glen Of Imaal Terrier;2;8
+744;69;Kangarookujvkv;1;7
+745;33w;Madora Moth;1;1
+746;1q;Chipoo;0;5
+747;8;Kakapo;2;2
+748;90x;Beagorayjcawk;3;2
+749;0;Red Racer Snake;0;4
+750;46;Russian Blue;3;3
+751;9;Sun Bearzyqtqkdf;1;5
+752;148c;Sheepadoodle;3;1
+753;088x;Javan Rhinocerosbhceou;3;2
+754;423;Black-Capped Chickadeeqhveqmtm;1;9
+755;828;Timor python;3;4
+756;068r;Reef Shark;0;9
+757;86;Chimpanzee;0;3
+758;57l;Snake;1;6
+759;1;Havashu;2;5
+760;22;Xoloitzcuintli;0;0
+761;43;Mexican Fireleg Tarantula;1;6
+762;3;Elasmotheriumavs;0;5
+763;6r;Grebe;0;9
+764;56x;Nurse Shark;1;3
+765;870;Labradanenodwr;1;2
+766;15;German Longhaired Pointer;3;1
+767;41n;Mink;2;1
+768;557w;Golden Saint;1;3
+769;63z;Stonechat;0;7
+770;5;Fox Snakesheizhlw;3;3
+771;410;Troodon;1;1
+772;7;Saint Berdoodle;1;0
+773;3r;Ibexpftq;1;9
+774;6;Psittacosaurusmiumqijq;3;9
+775;179x;Newfypoo;3;8
+776;3;Snowshoe Hare;2;3
+777;758;Entlebucher Mountain Dogzvw;2;6
+778;12;Eastern Racerqhlirl;1;7
+779;78i;Cobras;2;6
+780;48l;Chickadeejlq;2;0
+781;369y;Pangolinkj;3;2
+782;2t;Christmas Beetle;2;7
+783;47;Pictus Catfishjx;1;4
+784;4;Japanese Spitzypfsznnpw;1;5
+785;918n;Fairy-Wren;1;8
+786;186;Hippopotamus gorgops;3;8
+787;94;Asian Carpndb;1;2
+788;8;Albino (Amelanistic) Corn Snakeilsdppz;3;1
+789;070;Procoptodon;2;1
+790;156c;Masked Palm Civetghtxfeyf;1;4
+791;43;Flounder;1;8
+792;254c;Muskrat;0;2
+793;80;Yellow-Eyed Penguintzzhixsdu;2;7
+794;192e;Pointer;2;0
+795;310;Hippopotamus gorgopstvpvw;0;7
+796;1x;Takin;2;3
+797;95b;Liger;1;9
+798;428;Spanish Mastiff;3;2
+799;39y;African Clawed Frog;1;6
+800;7;Elephant;0;1
+801;7r;Australian Cattle Dogrpxcziajy;1;0
+802;86v;Honey Buzzardijfonp;1;4
+803;40;Lapponian Herder;2;8
+804;81i;Wirehaired Pointing Griffon;3;5
+805;180x;Rat Snakeszjnudmw;3;8
+806;82;Dapple Dachshund;1;0
+807;814w;Bat;1;8
+808;614d;Zebranunrvbcb;1;3
+809;358;Camel Cricketrysoy;3;8
+810;1z;Asian Giant Hornet;1;0
+811;961i;Red Wolf;0;0
+812;54;Cavador;0;4
+813;84;Olive Sea Snakesus;3;9
+814;708z;Boomslang;1;4
+815;29h;Zebra Pleco;0;8
+816;1f;Frilled Lizard;1;5
+817;3e;Uguisu;3;8
+818;76;African Jacana;1;2
+819;09;Salamander;3;6
+820;9c;Wild Boar;0;6
+821;552z;Lineback Cattle;3;7
+822;601;Maremma Sheepdog;0;2
+823;509f;Dalmador;2;6
+824;4;Phorusrhacos;3;8
+825;014;Oenpelli python;0;2
+826;275;Red-Lipped Batfish;2;5
+827;88;Scallops;3;6
+828;335;Heron;0;4
+829;353z;Mayfly;3;7
+830;83;Gaboon Viperafuarpocc;1;0
+831;00a;Lobster;1;7
+832;8h;Common Toad;2;4
+833;1n;Bald Eagle;3;0
+834;767;Starfishkhfmqxp;2;2
+835;31;Brookesia Micra;0;5
+836;500v;Fire salamander;0;5
+837;8;African Penguin;1;4
+838;342p;Lagotto Romagnolo;0;6
+839;049;Thylacoleonmzcxa;0;9
+840;3;Tenterfield Terrierlnbyevz;3;4
+841;101i;Wryneck;2;6
+842;71h;Large Munsterlander;1;7
+843;71e;Wolf;0;7
+844;74d;Steller’s Sea Cowqdpryr;2;5
+845;468;Red-Eared Slider;1;6
+846;625f;Pikaldnt;2;2
+847;018a;Tarbosaurus;3;6
+848;1;Longfin Mako Sharkjxvumzpx;3;2
+849;407;Somali;1;2
+850;5r;Carpenter Antzaodvyohx;1;5
+851;78;Humboldt Squidpjx;3;1
+852;5;Trout;0;2
+853;66m;French Lopurev;3;2
+854;02;Border Collie;3;0
+855;29;Sheep;0;1
+856;9;False Widow Spider;3;0
+857;6;California Kingsnake;1;9
+858;969x;Simbakubwajiysv;0;8
+859;8;Heronyolloui;1;5
+860;418;Corn Rex Cat (Cornish Rex);1;5
+861;309r;Gazellemebemacn;2;0
+862;17t;Saarloos Wolfdog;1;4
+863;718;Coati;0;4
+864;524;Long-Haired Rottweilerrwe;3;4
+865;49;Cactus Moth;3;4
+866;4n;Nicobar pigeon;3;5
+867;9k;Banana Cinnamon Ball Python;1;0
+868;36d;Cotton-top Tamarinee;0;7
+869;4;Sauropodawnflcfcz;0;1
+870;50;Dogue De Bordeaux;0;7
+871;26y;Spinone Italianoqay;0;1
+872;999;American Alligator;3;4
+873;94f;Pterodactyl;0;2
+874;1;Gopher;0;0
+875;5;Purple Tarantulaypxdzh;1;0
+876;35u;Greenland Dog;3;5
+877;513;Tasmanian Tigerityqe;2;4
+878;15;Brazilian Treehopper;2;7
+879;7;Carolina Parakeet;0;2
+880;656h;Nicobar pigeongtxmb;3;8
+881;009n;Zebrapacb;2;6
+882;25g;Xeme (Sabine’s Gull)dx;0;3
+883;708;Cavalier King Charles Spaniel;2;4
+884;6y;Mandarin Rat Snake;2;0
+885;93a;Amazonian Royal Flycatcher;0;2
+886;323z;Weimardoodlebfojrf;2;9
+887;309k;Irish WolfHoundsmi;0;4
+888;081;Katydid;0;6
+889;18;Smooth Green Snake;3;3
+890;921g;Flying Snakerw;2;1
+891;024a;Lesser Jacana;0;2
+892;29;Striped Hyena;3;5
+893;7a;Sea Turtle;2;9
+894;1;Fox Squirrellslagyvti;1;0
+895;3;Clumber Spaniel;1;8
+896;222t;Mudpuppy;1;0
+897;366;Clownfish;1;4
+898;1;Havamalttyjfye;2;8
+899;0;Chamois;3;6
+900;6;Amphicoelias Fragillimus;3;1
+901;884k;Barnacle;1;1
+902;666s;Giant Beaverqc;1;5
+903;1o;Dandie Dinmont Terrierfjs;2;5
+904;450;Hawaiian Crow;1;5
+905;26;Bed Bugshfelfxcn;0;4
+906;59l;Xeme (Sabine’s Gull)ruve;1;4
+907;9i;Indian Cobra;1;9
+908;7t;Yellow Perch;0;2
+909;8v;Beagoslhfyr;2;3
+910;5;Meagle;3;8
+911;0c;African Penguiniuwvo;3;2
+912;942u;Stag Beetlewgdcfqgdf;2;1
+913;27x;American Water Spanielcjoaqodpd;0;8
+914;37c;Toucan;1;4
+915;032h;Glass Frog;1;9
+916;977m;Snowshoe Hareysowxyfm;2;6
+917;09;American Foxhounduz;1;6
+918;029j;Hercules Beetlebiieizmbu;0;4
+919;61w;Song Thrush;0;0
+920;5i;Golden Eagle;2;6
+921;76;Puffin;1;3
+922;88;Magpie;0;8
+923;82m;Chartreux;3;2
+924;13;Fierce Snake;2;5
+925;8;Conger Eel;2;6
+926;43;Leopard Seal;0;8
+927;00f;Woolly Mammoth;3;8
+928;4o;Greenland Shark;2;4
+929;10l;Frengle;2;6
+930;758m;Yellow Tanager (Black-and-Yellow Tanager);3;6
+931;22;Green Bottle Blue Tarantula;2;4
+932;50i;Pyjama Shark;3;8
+933;927;Savannah Sparrow;2;5
+934;8d;Viperyhnfacsl;2;6
+935;244;Brown Headed Cowbird;1;4
+936;20w;Armenian Gampr;2;5
+937;323;Honey Badger;3;9
+938;919x;Armored Catfishyaphcp;1;0
+939;0;Chicken Snake;0;3
+940;115k;Pit Viper;0;9
+941;27;Chorkie;2;2
+942;5;Cockroach;2;0
+943;73;Weimaraner;1;6
+944;630;Wood Bison;3;9
+945;95;Honey Badgerwydbgsyvz;2;9
+946;8;Blue Racer;3;4
+947;187;Hawaiian Monk Sealuq;1;8
+948;55;Red Tail Boa (common boa);0;3
+949;122;Beefaloivpavzt;1;8
+950;40;Keelbackhpgjikku;2;4
+951;81u;Great Kiskadee;1;6
+952;72v;Arctic Foxxuovdz;3;0
+953;91z;Eastern Gorillavgaptydf;2;9
+954;65;Panthera atrox (American Lion)hkscmga;2;8
+955;3;Barosaurus;0;6
+956;49;Koi Fishozugsiv;2;8
+957;9q;Stick Insect;0;3
+958;4;Giant African Land Snailhjccfq;2;1
+959;64p;Alligator Gar;2;7
+960;90;Towheehjynq;2;4
+961;8d;Bredl’s Pythonfowcfmyt;1;0
+962;453;Man of War Jellyfish;1;2
+963;09m;Elephant Sealab;2;7
+964;52;Batykync;0;8
+965;62a;Uinta Ground Squirrel;1;7
+966;69;Toy Poodle;2;8
+967;2d;European Wildcat;1;0
+968;76;Leonberger;2;5
+969;9o;Sarkastodonsmziry;2;0
+970;894p;Raccoon Dog;1;3
+971;0r;Gorgosaurus;3;6
+972;37y;Zebra Spitting Cobra;2;0
+973;39;Massasaugajmrfqlggp;3;6
+974;89;Old English Sheepdog;2;0
+975;74f;Gorillahk;2;9
+976;64h;Albacore Tuna;3;4
+977;7d;Sea Turtleiplkgjvl;3;0
+978;25;Beabull;2;7
+979;1o;Red-Eyed Tree Frog;1;1
+980;12c;Japanese rat snake;0;8
+981;35w;Shollie;2;3
+982;980p;Mountain Feist;0;4
+983;85;Troodongdsafhg;2;9
+984;4;Red Aphidscntwhcfjw;3;5
+985;927x;White Rhinoceros;1;2
+986;0;Sturgeon;3;7
+987;88v;Junglefowljiiw;0;8
+988;598o;Tiger Moth;2;5
+989;161q;Rhesus Macaquerg;1;6
+990;18;Blue Shark;1;8
+991;6;Barn Owl;0;2
+992;56f;Harris Hawkhqayydxa;2;4
+993;1;Bull Sharkpqhr;2;9
+994;26;Eastern Bluebirdpyzm;0;3
+995;9l;Russian Tortoise;2;5
+996;0k;Canadian Horse;0;1
+997;9;Tenterfield Terrierwwryrd;1;7
+998;388n;Royal Penguin;2;0
+999;55;Huskita;3;8
