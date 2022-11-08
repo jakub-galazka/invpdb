@@ -9,6 +9,8 @@ from generate_gpu import generate_gpu
 from generate_ram_stick import generate_ram_stick
 from generate_software import Software
 from const import CSV_PATH
+from generate_room import Room
+from generate_computer import Computer
 
 
 SEED = 0
@@ -21,11 +23,13 @@ QUANTITY_ROOMS = 1000
 QUANTITY_CPU_GPU = 100_000
 QUANTITY_RAM_STICK = 200_000
 QUANTITY_SOFTWARE = 200_000
+QUANTITY_COMPUTERS = 100_000
 
 def main():
     if not os.path.exists(CSV_PATH % "account"): Accounts(QUANTITY_ACCOUNTS)
     if not os.path.exists(CSV_PATH % "building"): Building(QUANTITY_BUILDINGS)
     if not os.path.exists(CSV_PATH % "room"): Room(QUANTITY_ROOMS)
+    if not os.path.exists(CSV_PATH % "computer"): Computer(QUANTITY_COMPUTERS)
     if not os.path.exists(CSV_PATH % "cpu"): generate_cpu(QUANTITY_CPU_GPU)
     if not os.path.exists(CSV_PATH % "gpu"): generate_gpu(QUANTITY_CPU_GPU)
     if not os.path.exists(CSV_PATH % "ram_stick"): generate_ram_stick(QUANTITY_RAM_STICK)
