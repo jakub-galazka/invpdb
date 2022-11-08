@@ -88,7 +88,7 @@ class Building:
                 "street_number": self.create_street_number(quantity),
                 "postal_code": self.create_postal_code(quantity),
                 "city": self.create_city(quantity),
-                "county": self.create_country(quantity),
+                "country": self.create_country(quantity),
             }
         )
         df.index.name = "id"
