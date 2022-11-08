@@ -11,6 +11,7 @@ from generate_ram_stick import generate_ram_stick
 from generate_software import Software
 from const import CSV_PATH
 from generate_computer import Computer
+from generate_software_computer import Software_Computer
 
 
 SEED = 0
@@ -25,6 +26,7 @@ QUANTITY_CPU_GPU = 100_000
 QUANTITY_RAM_STICK = 200_000
 QUANTITY_SOFTWARE = 200_000
 QUANTITY_COMPUTERS = 100_000
+QUANTITY_SOFTWARE_COMPUTER = 5000
 
 
 def main():
@@ -46,6 +48,8 @@ def main():
         generate_ram_stick(QUANTITY_RAM_STICK)
     if not os.path.exists(CSV_PATH % "software"):
         Software(QUANTITY_SOFTWARE)
+    if not os.path.exists(CSV_PATH % "software_computer"):
+        Software_Computer(QUANTITY_SOFTWARE)
 
 
 if __name__ == "__main__":
