@@ -77,7 +77,7 @@ class Computer:
 
     def create_add_info(self, quantity) -> List[str]:
         return [
-            "" if random.randint(1, 100) <= 40 else lorem.paragraphs(2)
+            "" if random.randint(1, 100) <= 40 else lorem.words(150).rstrip()
             for _ in range(quantity)
         ]
 
