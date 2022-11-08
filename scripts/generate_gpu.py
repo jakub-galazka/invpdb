@@ -8,6 +8,8 @@ TGP.append("") # null
 TGP = np.array(TGP)
 
 def generate_gpu(quantity=1):
+    computer_data = pd.read_csv(CSV_PATH % "computer", sep=SEP)
+
     gpu_data = pd.read_csv("assets/gpu_data.csv", sep=SEP)
     els_no = gpu_data.shape[0]
 
@@ -18,7 +20,8 @@ def generate_gpu(quantity=1):
         "gpu_name": gpu_data.iloc[gpu_index]["gpu_name"],
         "manufacturer": gpu_data.iloc[gpu_index]["manufacturer"],
         "memory": gpu_data.iloc[gpu_index]["memory"],
-        "tgp": TGP[tgp_index]
+        "tgp": TGP[tgp_index],
+        "computer_id": computer_data.sample(quantity, replace=True).index.values
     })
     df = df.reset_index(drop=True)
     df.index.name = "gpu_id"
