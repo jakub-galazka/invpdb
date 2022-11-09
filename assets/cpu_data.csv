@@ -154,26 +154,26 @@ AthlonII X4 610e;AMD;4;8;2,4;2,4;2
 AthlonII X4 605e;AMD;4;8;2,3;2,3;2
 AthlonII X4 600e;AMD;4;8;2,2;2,2;2
 PhenomII X4 42 TWKR BE;AMD;4;8;2;2;6
-AthlonII X3 460;AMD;3;6;3,4;3,4;1,5
-AthlonII X3 455;AMD;3;6;3,3;3,3;1,5
+AthlonII X3 460;AMD;3;6;3,4;3,4;1
+AthlonII X3 455;AMD;3;6;3,3;3,3;1
 PhenomII X3 B77;AMD;3;6;3,2;3,2;6
-AthlonII X3 450;AMD;3;6;3,2;3,2;1,5
-AthlonII X3 445;AMD;3;6;3,1;3,1;1,5
+AthlonII X3 450;AMD;3;6;3,2;3,2;1
+AthlonII X3 445;AMD;3;6;3,1;3,1;1
 PhenomII X3 740;AMD;3;6;3;3;6
 PhenomII X3 B75;AMD;3;6;3;3;6
-AthlonII X3 440;AMD;3;6;3;3;1,5
-AthlonII X3 435;AMD;3;6;2,9;2,9;1,5
+AthlonII X3 440;AMD;3;6;3;3;1
+AthlonII X3 435;AMD;3;6;2,9;2,9;1
 PhenomII X3 720;AMD;3;6;2,8;2,8;6
 PhenomII X3 B73;AMD;3;6;2,8;2,8;6
-AthlonII X3 425e;AMD;3;6;2,7;2,7;1,5
-AthlonII X3 425;AMD;3;6;2,7;2,7;1,5
+AthlonII X3 425e;AMD;3;6;2,7;2,7;1
+AthlonII X3 425;AMD;3;6;2,7;2,7;1
 PhenomII X3 710;AMD;3;6;2,6;2,6;6
-AthlonII X3 420e;AMD;3;6;2,6;2,6;1,5
+AthlonII X3 420e;AMD;3;6;2,6;2,6;1
 PhenomII X3 705e;AMD;3;6;2,5;2,5;6
-AthlonII X3 415e;AMD;3;6;2,5;2,5;1,5
+AthlonII X3 415e;AMD;3;6;2,5;2,5;1
 PhenomII X3 700e;AMD;3;6;2,4;2,4;6
-AthlonII X3 405e;AMD;3;6;2,3;2,3;1,5
-AthlonII X3 400e;AMD;3;6;2,2;2,2;1,5
+AthlonII X3 405e;AMD;3;6;2,3;2,3;1
+AthlonII X3 400e;AMD;3;6;2,2;2,2;1
 AthlonII X2 280;AMD;2;4;3,6;3,6;2
 AthlonII X2 B30;AMD;2;4;3,6;3,6;2
 PhenomII X2 B60;AMD;2;4;3,5;3,5;6
@@ -215,7 +215,7 @@ Athlon II X2 250u;AMD;2;4;1,6;1,6;2
 Sempron 150;AMD;1;2;2,9;2,9;1
 Sempron 145;AMD;1;2;2,8;2,8;1
 Sempron 140;AMD;1;2;2,7;2,7;1
-Sempron 130;AMD;1;2;2,6;2,6;0,5
+Sempron 130;AMD;1;2;2,6;2,6;1
 Athlon II 170u;AMD;1;2;2;2;1
 218 Athlon II 160u;AMD;1;2;1,8;1,8;1
 Xeon X3480;Intel;4;8;3,06;3,73;8
@@ -366,9 +366,9 @@ Pentium G620T;Intel;2;4;2,2;2,2;3
 Celeron G550T;Intel;2;4;2,2;2,2;2
 Celeron G540T;Intel;2;4;2,1;2,1;2
 Celeron G530T;Intel;2;4;2;2;2
-Celeron G470;Intel;1;2;2;2;1,5
-Celeron G465;Intel;1;2;1,9;1,9;1,5
-Celeron G460;Intel;1;2;1,8;1,8;1,5
+Celeron G470;Intel;1;2;2;2;1
+Celeron G465;Intel;1;2;1,9;1,9;1
+Celeron G460;Intel;1;2;1,8;1,8;1
 Celeron G440;Intel;1;2;1,6;1,6;1
 Core i9-9900KS;Intel;8;16;4;5;16
 Xeon E-2288G;Intel;8;16;3,7;5;16

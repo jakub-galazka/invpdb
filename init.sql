@@ -76,14 +76,10 @@ CREATE TABLE software (
   PRIMARY KEY (software_id));
 CREATE TABLE account_building (
   account_id  number(38) NOT NULL, 
-  building_id number(38) NOT NULL, 
-  PRIMARY KEY (account_id, 
-  building_id));
+  building_id number(38) NOT NULL);
 CREATE TABLE software_computer (
   software_id number(38) NOT NULL, 
-  computer_id number(38) NOT NULL, 
-  PRIMARY KEY (software_id, 
-  computer_id));
+  computer_id number(38) NOT NULL);
 ALTER TABLE account_building ADD CONSTRAINT FKaccount_bu654416 FOREIGN KEY (account_id) REFERENCES account (account_id);
 ALTER TABLE account_building ADD CONSTRAINT FKaccount_bu316095 FOREIGN KEY (building_id) REFERENCES building (building_id);
 ALTER TABLE room ADD CONSTRAINT FKroom519804 FOREIGN KEY (building_id) REFERENCES building (building_id);
