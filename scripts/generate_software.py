@@ -9,17 +9,16 @@ class Software:
 
     def __init__(self, quantity=1):
             self.softwares = {
-            "Microsoft": ["Internet Explorer", "Microsoft Outlook", "Microsoft Office 365", "Visual Studio Code", "Notepad++"],
-            "Mozilla": ["Mozilla Firefox", "Mozilla Thunderbird"],
-            "Yahoo": ["Yahoo Email"],
-            "Adobe": ["Acrobat Reader"],
-            "GitHub": ["Atom"],
-            "Tracker Software": ["PDF-XChange Viewer"],
-            "Google": ["Chrome Google"],
-            "VideoLan": ["VLC Player"],
+            "Microsoft": ["Internet Explorer", "Microsoft Outlook", "Microsoft Office 365", "Visual Studio Code", "Notepad++", "Microsoft Edge", "OneDrive", "Microsoft To Do", "Microsoft Azur"],
+            "Mozilla": ["Mozilla Firefox", "Mozilla Thunderbird", "Mozilla Reality"],
+            "Yahoo": ["Yahoo Email", "Yahoo Massanger", "Yahoo Music Jukebox"],
+            "Adobe": ["Acrobat Reader","Photoshop", "Illustrator", "Premiere Pro", "Lightroom", "Scan", "Experience Cloud"],
             "Kakao": ["PotPlayer"],
             "Foxit": ["Foxit PDF Reader"],
-            "PandoraTV": ["KMPlayer"]
+            "PandoraTV": ["KMPlayer"],
+            "Google": ["Google Drive", "Google Maps", "Google Analytics", "Google Earth", "Google Cloud Platform", "Google Finance", "Google Chrome", "AdSense", "Google Web Designer", "Android Studio", "Google Workspace"],
+            "IBM": ["WebSphere", "IBM Db2", "IBM pureQuery", "IBM DisplayWrite", "IBM OfficeVision", "IBM Planning Analytics", "IBM Cognos Analytics"], 
+            "JetBrains": ["Intellij IDEA", "PyCharm", "WebStorm", "PhpStorm", "ReSharper", "Rider", "CLion", "Datalore", "DataSpell", "DataGrip", "RubyMine", "AppCode", "GoLand", "dotPeek", "dotTrace", "TeamCity", "Hub", "Kotlin", "MPS", "PyCharm Edu", "Edu Tools", "Code With Me", "Gateway", "Qodana"]
             }
             self._prepare_csv(quantity)
         
