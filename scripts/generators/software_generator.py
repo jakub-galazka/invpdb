@@ -30,7 +30,7 @@ class SoftwareGenerator(Generator):
         software = pd.DataFrame({
             "software_name": self._generate_software_names(publishers),
             "publisher_name": publishers,
-            "license_key": random.choices(string.ascii_letters + string.digits, k=quantity),
+            "license_key": super().generate_list(quantity, lambda: "".join(random.choices(string.ascii_letters + string.digits, k=15))),
             "expire_date": super().generate_list(quantity, lambda: self.faker.date_between("-5y", "+5y")),
         })
         self.csvw.write(software, "software")
