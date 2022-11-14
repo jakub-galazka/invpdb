@@ -11,4 +11,4 @@ class SoftCompGenerator(Generator):
             "software_id": super().get_ids("software", quantity),
             "computer_id": super().get_ids("computer", quantity),
         })
-        self.csvw.write(soft_comp, "soft_comp")
+        self.csvw.write(soft_comp, "soft_comp", False)

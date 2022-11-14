@@ -24,5 +24,5 @@ class Generator(ABC):
         return df.iloc[index][column_name].tolist()
 
     def get_ids(self, csv_name: str, quantity: int) -> list[int]:
-        ids = pd.read_csv(self.csvw.csv_path % csv_name, sep=self.csvw.sep, usecols=[csv_name + "_id"]).squeeze().tolist()
+        ids = pd.read_csv(self.csvw.csv_path % csv_name, usecols=[csv_name + "_id"]).squeeze().tolist()
         return random.choices(ids, k=quantity)

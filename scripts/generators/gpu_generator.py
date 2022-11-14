@@ -14,7 +14,7 @@ class GPUGenerator(Generator):
             np.random.seed(seed)
 
     def generate(self, quantity: int = 1) -> None:
-        gpu_data = pd.read_csv(GPUGenerator.ASSET_PATH, sep=self.csvw.sep)
+        gpu_data = pd.read_csv(GPUGenerator.ASSET_PATH)
 
         els_no = gpu_data.shape[0]
         index = np.random.randint(0, els_no, quantity)

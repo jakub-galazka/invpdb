@@ -1,267 +1,267 @@
-gpu_name;manufacturer;memory
-HD Graphics;Intel;0
-HD Graphics 2000;Intel;0
-HD Graphics 3000;Intel;0
-HD Graphics 4000;Intel;0
-HD Graphics 4400;Intel;0
-HD Graphics 4600;Intel;0
-HD Graphics 510;Intel;0
-HD Graphics 530;Intel;0
-HD Graphics 610;Intel;0
-HD Graphics 630;Intel;0
-Iris Pro Graphics 5200;Intel;0
-Iris Pro Graphics 6200;Intel;0
-UHD Graphics;Intel;0
-UHD Graphics 610;Intel;0
-UHD Graphics 630;Intel;0
-UHD Graphics 710;Intel;0
-UHD Graphics 730;Intel;0
-UHD Graphics 750;Intel;0
-UHD Graphics 770;Intel;0
-HD Graphics 4200;Intel;0
-HD Graphics 5000;Intel;0
-HD Graphics 515;Intel;0
-HD Graphics 520;Intel;0
-HD Graphics 5300;Intel;0
-HD Graphics 5500;Intel;0
-HD Graphics 5600;Intel;0
-HD Graphics 6000;Intel;0
-HD Graphics 615;Intel;0
-HD Graphics 620;Intel;0
-Iris Graphics 5100;Intel;0
-Iris Graphics 540;Intel;0
-Iris Graphics 550;Intel;0
-Iris Graphics 6100;Intel;0
-Iris Plus Graphics 640;Intel;0
-Iris Plus Graphics 645;Intel;0
-Iris Plus Graphics 650;Intel;0
-Iris Plus Graphics 655;Intel;0
-Iris Plus Graphics G4;Intel;0
-Iris Plus Graphics G7;Intel;0
-Iris Pro Graphics 580;Intel;0
-Iris Xe Graphics 80EU;Intel;0
-Iris Xe Graphics 96EU;Intel;0
-Iris Xe Graphics G4;Intel;0
-Iris Xe Graphics G7 80EU;Intel;0
-Iris Xe Graphics G7 96EU;Intel;0
-Iris Xe MAX Graphics;Intel;0
-UHD Graphics 16EU;Intel;0
-UHD Graphics 24EU;Intel;0
-UHD Graphics 32EU;Intel;0
-UHD Graphics 48EU;Intel;0
-UHD Graphics 620;Intel;0
-UHD Graphics 64EU;Intel;0
-UHD Graphics G1;Intel;0
-UHD Graphics G4;Intel;0
-UHD Graphics G7;Intel;0
-HD Graphics 400;Intel;0
-HD Graphics 405;Intel;0
-HD Graphics 500;Intel;0
-HD Graphics 505;Intel;0
-UHD Graphics 600;Intel;0
-UHD Graphics 605;Intel;0
-UHD Graphics 615;Intel;0
-UHD Graphics 617;Intel;0
-HD Graphics P3000;Intel;0
-HD Graphics P4000;Intel;0
-HD Graphics P4600;Intel;0
-HD Graphics P4700;Intel;0
-HD Graphics P530;Intel;0
-HD Graphics P5700;Intel;0
-Iris Pro Graphics P555;Intel;0
-Iris Pro Graphics P580;Intel;0
-Iris Pro Graphics P6300;Intel;0
-UHD Graphics P630;Intel;0
-UHD Graphics P750;Intel;0
-HD Graphics P630;Intel;0
-GeForce GTX 950;NVIDIA;2
-GeForce GTX 950 Low Power;NVIDIA;2
-GeForce GTX 950 OEM;NVIDIA;4
-GeForce GTX 960;NVIDIA;2
-GeForce GTX 960 OEM;NVIDIA;3
-GeForce GTX 970;NVIDIA;4
-GeForce GTX 980;NVIDIA;4
-GeForce GTX 980 Ti;NVIDIA;6
-GeForce GTX TITAN X;NVIDIA;12
-GeForce GT 1010;NVIDIA;2
-GeForce GT 1010 DDR4;NVIDIA;2
-GeForce GT 1030;NVIDIA;2
-GeForce GT 1030 DDR4;NVIDIA;2
-GeForce GT 1030 GK107;NVIDIA;2
-GeForce GTX 1050;NVIDIA;2
-GeForce GTX 1050 3 GB;NVIDIA;3
-GeForce GTX 1050 Ti;NVIDIA;4
-GeForce GTX 1060 3 GB;NVIDIA;3
-GeForce GTX 1060 3 GB GP104;NVIDIA;3
-GeForce GTX 1060 5 GB;NVIDIA;5
-GeForce GTX 1060 6 GB;NVIDIA;6
-GeForce GTX 1060 6 GB 9Gbps;NVIDIA;6
-GeForce GTX 1060 6 GB GDDR5X;NVIDIA;6
-GeForce GTX 1060 6 GB GP104;NVIDIA;6
-GeForce GTX 1060 6 GB Rev. 2;NVIDIA;6
-GeForce GTX 1060 8 GB GDDR5X;NVIDIA;8
-GeForce GTX 1070;NVIDIA;8
-GeForce GTX 1070 GDDR5X;NVIDIA;8
-GeForce GTX 1070 Ti;NVIDIA;8
-GeForce GTX 1080;NVIDIA;8
-GeForce GTX 1080 11Gbps;NVIDIA;8
-GeForce GTX 1080 Ti;NVIDIA;11
-GeForce GTX 1080 Ti 10 GB;NVIDIA;10
-TITAN V;NVIDIA;12
-TITAN V CEO Edition;NVIDIA;32
-TITAN X Pascal;NVIDIA;12
-TITAN Xp;NVIDIA;12
-GeForce GTX 1630;NVIDIA;4
-GeForce GTX 1650;NVIDIA;4
-GeForce GTX 1650 GDDR6;NVIDIA;4
-GeForce GTX 1650 SUPER;NVIDIA;4
-GeForce GTX 1650 TU106;NVIDIA;4
-GeForce GTX 1650 TU116;NVIDIA;4
-GeForce GTX 1660;NVIDIA;6
-GeForce GTX 1660 SUPER;NVIDIA;6
-GeForce GTX 1660 Ti;NVIDIA;6
-GeForce RTX 2060;NVIDIA;6
-GeForce RTX 2060 12 GB;NVIDIA;12
-GeForce RTX 2060 SUPER;NVIDIA;8
-GeForce RTX 2060 TU104;NVIDIA;6
-GeForce RTX 2070;NVIDIA;8
-GeForce RTX 2070 SUPER;NVIDIA;8
-GeForce RTX 2080;NVIDIA;8
-GeForce RTX 2080 SUPER;NVIDIA;8
-GeForce RTX 2080 Ti;NVIDIA;11
-GeForce RTX 2080 Ti 12 GB;NVIDIA;12
-TITAN RTX;NVIDIA;24
-GeForce RTX 3050 4 GB;NVIDIA;4
-GeForce RTX 3050 8 GB;NVIDIA;8
-GeForce RTX 3050 8 GB GA107;NVIDIA;8
-GeForce RTX 3050 OEM;NVIDIA;8
-GeForce RTX 3060;NVIDIA;12
-GeForce RTX 3060 8 GB;NVIDIA;8
-GeForce RTX 3060 GA104;NVIDIA;12
-GeForce RTX 3060 Ti;NVIDIA;8
-GeForce RTX 3060 Ti GA103;NVIDIA;8
-GeForce RTX 3060 Ti GDDR6X;NVIDIA;8
-GeForce RTX 3070;NVIDIA;8
-GeForce RTX 3070 Ti;NVIDIA;8
-GeForce RTX 3070 Ti 16 GB;NVIDIA;16
-GeForce RTX 3070 Ti GA102;NVIDIA;8
-GeForce RTX 3080;NVIDIA;10
-GeForce RTX 3080 12 GB;NVIDIA;12
-GeForce RTX 3080 Ti;NVIDIA;12
-GeForce RTX 3080 Ti 20 GB;NVIDIA;20
-GeForce RTX 3090;NVIDIA;24
-GeForce RTX 3090 Ti;NVIDIA;24
-GeForce RTX 4050;NVIDIA;8
-GeForce RTX 4060;NVIDIA;8
-GeForce RTX 4060 Ti;NVIDIA;10
-GeForce RTX 4070;NVIDIA;12
-GeForce RTX 4080 12 GB;NVIDIA;12
-GeForce RTX 4080 16 GB;NVIDIA;16
-GeForce RTX 4080 Ti;NVIDIA;20
-GeForce RTX 4090;NVIDIA;24
-GeForce RTX 4090 Ti;NVIDIA;48
-Radeon HD 7850;AMD;2
-Radeon HD 7870 GHz Edition;AMD;2
-Radeon HD 7870 XT;AMD;2
-Radeon HD 7950;AMD;3
-Radeon HD 7950 Boost;AMD;3
-Radeon HD 7950 Mac Edition;AMD;3
-Radeon HD 7950 Monica BIOS 1;AMD;3
-Radeon HD 7950 Monica BIOS 2;AMD;3
-Radeon HD 7970;AMD;3
-Radeon HD 7970 GHz Edition;AMD;3
-Radeon HD 7970 X2;AMD;3
-Radeon HD 7990;AMD;3
-Radeon HD 8570 OEM;AMD;2
-Radeon HD 8670 OEM;AMD;2
-Radeon HD 8760 OEM;AMD;2
-Radeon HD 8860 OEM;AMD;2
-Radeon HD 8870 OEM;AMD;2
-Radeon HD 8950 OEM;AMD;3
-Radeon HD 8970 OEM;AMD;3
-Radeon HD 8990 OEM;AMD;3
-Radeon R5 240 OEM;AMD;2
-Radeon R7 240;AMD;2
-Radeon R7 240 OEM;AMD;2
-Radeon R7 250 OEM;AMD;2
-Radeon R7 260;AMD;2
-Radeon R7 260X;AMD;2
-Radeon R7 265;AMD;2
-Radeon R7 265X OEM;AMD;2
-Radeon R9 255 OEM;AMD;2
-Radeon R9 270;AMD;2
-Radeon R9 270 1024SP;AMD;2
-Radeon R9 270X;AMD;2
-Radeon R9 280;AMD;3
-Radeon R9 280X;AMD;3
-Radeon R9 280X2;AMD;3
-Radeon R9 285;AMD;2
-Radeon R9 285X;AMD;3
-Radeon R9 290;AMD;4
-Radeon R9 290X;AMD;4
-Radeon R9 290X2;AMD;4
-Radeon R9 295X2;AMD;4
-Radeon R5 310 OEM;AMD;2
-Radeon R5 330 OEM;AMD;2
-Radeon R5 340X OEM;AMD;2
-Radeon R7 340 OEM;AMD;2
-Radeon R7 350;AMD;2
-Radeon R7 350 640SP;AMD;2
-Radeon R7 350 OEM;AMD;2
-Radeon R7 350X OEM;AMD;4
-Radeon R7 360;AMD;2
-Radeon R7 360 896SP;AMD;2
-Radeon R7 360E;AMD;2
-Radeon R7 370;AMD;2
-Radeon R9 360 OEM;AMD;2
-Radeon R9 370;AMD;2
-Radeon R9 370 1024SP;AMD;2
-Radeon R9 370X;AMD;2
-Radeon R9 380;AMD;2
-Radeon R9 380 OEM;AMD;4
-Radeon R9 380X;AMD;4
-Radeon R9 390;AMD;8
-Radeon R9 390 X2;AMD;8
-Radeon R9 390X;AMD;8
-Radeon R9 FURY;AMD;4
-Radeon R9 FURY X;AMD;4
-Radeon R9 FURY X2;AMD;4
-Radeon R9 Nano;AMD;4
-Radeon R5 430 OEM;AMD;2
-Radeon R5 435 OEM;AMD;2
-Radeon R7 430 OEM;AMD;2
-Radeon R7 435 OEM;AMD;2
-Radeon R7 450 OEM;AMD;2
-Radeon RX 455 OEM;AMD;2
-Radeon RX 460;AMD;2
-Radeon RX 460 1024SP;AMD;2
-Radeon RX 470;AMD;4
-Radeon RX 470D;AMD;4
-Radeon RX 480;AMD;8
-Radeon Pro Duo;AMD;4
-Radeon Pro Duo Polaris;AMD;16
-Radeon Pro SSG;AMD;16
-Radeon Pro V320;AMD;16
-Radeon Pro V340;AMD;16
-Radeon Pro V520;AMD;8
-Radeon Pro V5300X;AMD;4
-Radeon Pro V620;AMD;32
-Radeon Pro V7300X;AMD;8
-Radeon Pro V7350X2;AMD;16
-Radeon Pro VII;AMD;16
-Radeon Pro W5500;AMD;8
-Radeon Pro W5700;AMD;8
-Radeon Pro W6400;AMD;4
-Radeon Pro W6600;AMD;8
-Radeon Pro W6800;AMD;32
-Radeon Pro WX 2100;AMD;2
-Radeon Pro WX 3100;AMD;4
-Radeon Pro WX 3200;AMD;4
-Radeon Pro WX 4100;AMD;4
-Radeon Pro WX 5100;AMD;8
-Radeon Pro WX 7100;AMD;8
-Radeon Pro WX 8100;AMD;8
-Radeon Pro WX 8200;AMD;8
-Radeon Pro WX 9100;AMD;16
-Radeon Vega Frontier Edition;AMD;16
-Radeon Vega Frontier Edition Watercooled;AMD;16
+gpu_name,manufacturer,memory
+HD Graphics,Intel,0
+HD Graphics 2000,Intel,0
+HD Graphics 3000,Intel,0
+HD Graphics 4000,Intel,0
+HD Graphics 4400,Intel,0
+HD Graphics 4600,Intel,0
+HD Graphics 510,Intel,0
+HD Graphics 530,Intel,0
+HD Graphics 610,Intel,0
+HD Graphics 630,Intel,0
+Iris Pro Graphics 5200,Intel,0
+Iris Pro Graphics 6200,Intel,0
+UHD Graphics,Intel,0
+UHD Graphics 610,Intel,0
+UHD Graphics 630,Intel,0
+UHD Graphics 710,Intel,0
+UHD Graphics 730,Intel,0
+UHD Graphics 750,Intel,0
+UHD Graphics 770,Intel,0
+HD Graphics 4200,Intel,0
+HD Graphics 5000,Intel,0
+HD Graphics 515,Intel,0
+HD Graphics 520,Intel,0
+HD Graphics 5300,Intel,0
+HD Graphics 5500,Intel,0
+HD Graphics 5600,Intel,0
+HD Graphics 6000,Intel,0
+HD Graphics 615,Intel,0
+HD Graphics 620,Intel,0
+Iris Graphics 5100,Intel,0
+Iris Graphics 540,Intel,0
+Iris Graphics 550,Intel,0
+Iris Graphics 6100,Intel,0
+Iris Plus Graphics 640,Intel,0
+Iris Plus Graphics 645,Intel,0
+Iris Plus Graphics 650,Intel,0
+Iris Plus Graphics 655,Intel,0
+Iris Plus Graphics G4,Intel,0
+Iris Plus Graphics G7,Intel,0
+Iris Pro Graphics 580,Intel,0
+Iris Xe Graphics 80EU,Intel,0
+Iris Xe Graphics 96EU,Intel,0
+Iris Xe Graphics G4,Intel,0
+Iris Xe Graphics G7 80EU,Intel,0
+Iris Xe Graphics G7 96EU,Intel,0
+Iris Xe MAX Graphics,Intel,0
+UHD Graphics 16EU,Intel,0
+UHD Graphics 24EU,Intel,0
+UHD Graphics 32EU,Intel,0
+UHD Graphics 48EU,Intel,0
+UHD Graphics 620,Intel,0
+UHD Graphics 64EU,Intel,0
+UHD Graphics G1,Intel,0
+UHD Graphics G4,Intel,0
+UHD Graphics G7,Intel,0
+HD Graphics 400,Intel,0
+HD Graphics 405,Intel,0
+HD Graphics 500,Intel,0
+HD Graphics 505,Intel,0
+UHD Graphics 600,Intel,0
+UHD Graphics 605,Intel,0
+UHD Graphics 615,Intel,0
+UHD Graphics 617,Intel,0
+HD Graphics P3000,Intel,0
+HD Graphics P4000,Intel,0
+HD Graphics P4600,Intel,0
+HD Graphics P4700,Intel,0
+HD Graphics P530,Intel,0
+HD Graphics P5700,Intel,0
+Iris Pro Graphics P555,Intel,0
+Iris Pro Graphics P580,Intel,0
+Iris Pro Graphics P6300,Intel,0
+UHD Graphics P630,Intel,0
+UHD Graphics P750,Intel,0
+HD Graphics P630,Intel,0
+GeForce GTX 950,NVIDIA,2
+GeForce GTX 950 Low Power,NVIDIA,2
+GeForce GTX 950 OEM,NVIDIA,4
+GeForce GTX 960,NVIDIA,2
+GeForce GTX 960 OEM,NVIDIA,3
+GeForce GTX 970,NVIDIA,4
+GeForce GTX 980,NVIDIA,4
+GeForce GTX 980 Ti,NVIDIA,6
+GeForce GTX TITAN X,NVIDIA,12
+GeForce GT 1010,NVIDIA,2
+GeForce GT 1010 DDR4,NVIDIA,2
+GeForce GT 1030,NVIDIA,2
+GeForce GT 1030 DDR4,NVIDIA,2
+GeForce GT 1030 GK107,NVIDIA,2
+GeForce GTX 1050,NVIDIA,2
+GeForce GTX 1050 3 GB,NVIDIA,3
+GeForce GTX 1050 Ti,NVIDIA,4
+GeForce GTX 1060 3 GB,NVIDIA,3
+GeForce GTX 1060 3 GB GP104,NVIDIA,3
+GeForce GTX 1060 5 GB,NVIDIA,5
+GeForce GTX 1060 6 GB,NVIDIA,6
+GeForce GTX 1060 6 GB 9Gbps,NVIDIA,6
+GeForce GTX 1060 6 GB GDDR5X,NVIDIA,6
+GeForce GTX 1060 6 GB GP104,NVIDIA,6
+GeForce GTX 1060 6 GB Rev. 2,NVIDIA,6
+GeForce GTX 1060 8 GB GDDR5X,NVIDIA,8
+GeForce GTX 1070,NVIDIA,8
+GeForce GTX 1070 GDDR5X,NVIDIA,8
+GeForce GTX 1070 Ti,NVIDIA,8
+GeForce GTX 1080,NVIDIA,8
+GeForce GTX 1080 11Gbps,NVIDIA,8
+GeForce GTX 1080 Ti,NVIDIA,11
+GeForce GTX 1080 Ti 10 GB,NVIDIA,10
+TITAN V,NVIDIA,12
+TITAN V CEO Edition,NVIDIA,32
+TITAN X Pascal,NVIDIA,12
+TITAN Xp,NVIDIA,12
+GeForce GTX 1630,NVIDIA,4
+GeForce GTX 1650,NVIDIA,4
+GeForce GTX 1650 GDDR6,NVIDIA,4
+GeForce GTX 1650 SUPER,NVIDIA,4
+GeForce GTX 1650 TU106,NVIDIA,4
+GeForce GTX 1650 TU116,NVIDIA,4
+GeForce GTX 1660,NVIDIA,6
+GeForce GTX 1660 SUPER,NVIDIA,6
+GeForce GTX 1660 Ti,NVIDIA,6
+GeForce RTX 2060,NVIDIA,6
+GeForce RTX 2060 12 GB,NVIDIA,12
+GeForce RTX 2060 SUPER,NVIDIA,8
+GeForce RTX 2060 TU104,NVIDIA,6
+GeForce RTX 2070,NVIDIA,8
+GeForce RTX 2070 SUPER,NVIDIA,8
+GeForce RTX 2080,NVIDIA,8
+GeForce RTX 2080 SUPER,NVIDIA,8
+GeForce RTX 2080 Ti,NVIDIA,11
+GeForce RTX 2080 Ti 12 GB,NVIDIA,12
+TITAN RTX,NVIDIA,24
+GeForce RTX 3050 4 GB,NVIDIA,4
+GeForce RTX 3050 8 GB,NVIDIA,8
+GeForce RTX 3050 8 GB GA107,NVIDIA,8
+GeForce RTX 3050 OEM,NVIDIA,8
+GeForce RTX 3060,NVIDIA,12
+GeForce RTX 3060 8 GB,NVIDIA,8
+GeForce RTX 3060 GA104,NVIDIA,12
+GeForce RTX 3060 Ti,NVIDIA,8
+GeForce RTX 3060 Ti GA103,NVIDIA,8
+GeForce RTX 3060 Ti GDDR6X,NVIDIA,8
+GeForce RTX 3070,NVIDIA,8
+GeForce RTX 3070 Ti,NVIDIA,8
+GeForce RTX 3070 Ti 16 GB,NVIDIA,16
+GeForce RTX 3070 Ti GA102,NVIDIA,8
+GeForce RTX 3080,NVIDIA,10
+GeForce RTX 3080 12 GB,NVIDIA,12
+GeForce RTX 3080 Ti,NVIDIA,12
+GeForce RTX 3080 Ti 20 GB,NVIDIA,20
+GeForce RTX 3090,NVIDIA,24
+GeForce RTX 3090 Ti,NVIDIA,24
+GeForce RTX 4050,NVIDIA,8
+GeForce RTX 4060,NVIDIA,8
+GeForce RTX 4060 Ti,NVIDIA,10
+GeForce RTX 4070,NVIDIA,12
+GeForce RTX 4080 12 GB,NVIDIA,12
+GeForce RTX 4080 16 GB,NVIDIA,16
+GeForce RTX 4080 Ti,NVIDIA,20
+GeForce RTX 4090,NVIDIA,24
+GeForce RTX 4090 Ti,NVIDIA,48
+Radeon HD 7850,AMD,2
+Radeon HD 7870 GHz Edition,AMD,2
+Radeon HD 7870 XT,AMD,2
+Radeon HD 7950,AMD,3
+Radeon HD 7950 Boost,AMD,3
+Radeon HD 7950 Mac Edition,AMD,3
+Radeon HD 7950 Monica BIOS 1,AMD,3
+Radeon HD 7950 Monica BIOS 2,AMD,3
+Radeon HD 7970,AMD,3
+Radeon HD 7970 GHz Edition,AMD,3
+Radeon HD 7970 X2,AMD,3
+Radeon HD 7990,AMD,3
+Radeon HD 8570 OEM,AMD,2
+Radeon HD 8670 OEM,AMD,2
+Radeon HD 8760 OEM,AMD,2
+Radeon HD 8860 OEM,AMD,2
+Radeon HD 8870 OEM,AMD,2
+Radeon HD 8950 OEM,AMD,3
+Radeon HD 8970 OEM,AMD,3
+Radeon HD 8990 OEM,AMD,3
+Radeon R5 240 OEM,AMD,2
+Radeon R7 240,AMD,2
+Radeon R7 240 OEM,AMD,2
+Radeon R7 250 OEM,AMD,2
+Radeon R7 260,AMD,2
+Radeon R7 260X,AMD,2
+Radeon R7 265,AMD,2
+Radeon R7 265X OEM,AMD,2
+Radeon R9 255 OEM,AMD,2
+Radeon R9 270,AMD,2
+Radeon R9 270 1024SP,AMD,2
+Radeon R9 270X,AMD,2
+Radeon R9 280,AMD,3
+Radeon R9 280X,AMD,3
+Radeon R9 280X2,AMD,3
+Radeon R9 285,AMD,2
+Radeon R9 285X,AMD,3
+Radeon R9 290,AMD,4
+Radeon R9 290X,AMD,4
+Radeon R9 290X2,AMD,4
+Radeon R9 295X2,AMD,4
+Radeon R5 310 OEM,AMD,2
+Radeon R5 330 OEM,AMD,2
+Radeon R5 340X OEM,AMD,2
+Radeon R7 340 OEM,AMD,2
+Radeon R7 350,AMD,2
+Radeon R7 350 640SP,AMD,2
+Radeon R7 350 OEM,AMD,2
+Radeon R7 350X OEM,AMD,4
+Radeon R7 360,AMD,2
+Radeon R7 360 896SP,AMD,2
+Radeon R7 360E,AMD,2
+Radeon R7 370,AMD,2
+Radeon R9 360 OEM,AMD,2
+Radeon R9 370,AMD,2
+Radeon R9 370 1024SP,AMD,2
+Radeon R9 370X,AMD,2
+Radeon R9 380,AMD,2
+Radeon R9 380 OEM,AMD,4
+Radeon R9 380X,AMD,4
+Radeon R9 390,AMD,8
+Radeon R9 390 X2,AMD,8
+Radeon R9 390X,AMD,8
+Radeon R9 FURY,AMD,4
+Radeon R9 FURY X,AMD,4
+Radeon R9 FURY X2,AMD,4
+Radeon R9 Nano,AMD,4
+Radeon R5 430 OEM,AMD,2
+Radeon R5 435 OEM,AMD,2
+Radeon R7 430 OEM,AMD,2
+Radeon R7 435 OEM,AMD,2
+Radeon R7 450 OEM,AMD,2
+Radeon RX 455 OEM,AMD,2
+Radeon RX 460,AMD,2
+Radeon RX 460 1024SP,AMD,2
+Radeon RX 470,AMD,4
+Radeon RX 470D,AMD,4
+Radeon RX 480,AMD,8
+Radeon Pro Duo,AMD,4
+Radeon Pro Duo Polaris,AMD,16
+Radeon Pro SSG,AMD,16
+Radeon Pro V320,AMD,16
+Radeon Pro V340,AMD,16
+Radeon Pro V520,AMD,8
+Radeon Pro V5300X,AMD,4
+Radeon Pro V620,AMD,32
+Radeon Pro V7300X,AMD,8
+Radeon Pro V7350X2,AMD,16
+Radeon Pro VII,AMD,16
+Radeon Pro W5500,AMD,8
+Radeon Pro W5700,AMD,8
+Radeon Pro W6400,AMD,4
+Radeon Pro W6600,AMD,8
+Radeon Pro W6800,AMD,32
+Radeon Pro WX 2100,AMD,2
+Radeon Pro WX 3100,AMD,4
+Radeon Pro WX 3200,AMD,4
+Radeon Pro WX 4100,AMD,4
+Radeon Pro WX 5100,AMD,8
+Radeon Pro WX 7100,AMD,8
+Radeon Pro WX 8100,AMD,8
+Radeon Pro WX 8200,AMD,8
+Radeon Pro WX 9100,AMD,16
+Radeon Vega Frontier Edition,AMD,16
+Radeon Vega Frontier Edition Watercooled,AMD,16

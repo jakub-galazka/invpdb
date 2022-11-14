@@ -12,7 +12,7 @@ class CPUGenerator(Generator):
             np.random.seed(seed)
     
     def generate(self, quantity: int = 1) -> None:
-        cpu_data = pd.read_csv(CPUGenerator.ASSET_PATH, sep=self.csvw.sep)
+        cpu_data = pd.read_csv(CPUGenerator.ASSET_PATH)
 
         els_no = cpu_data.shape[0]
         index = np.random.randint(0, els_no, quantity)

@@ -18,7 +18,7 @@ class ComputerGenerator(Generator):
             np.random.seed(seed)
 
     def generate(self, quantity: int = 1) -> None:
-        computer_data = pd.read_csv(ComputerGenerator.ASSET_PATH, sep=self.csvw.sep, usecols=["model", "manufacturer"])
+        computer_data = pd.read_csv(ComputerGenerator.ASSET_PATH, usecols=["model", "manufacturer"])
 
         els_no = computer_data.shape[0]
         index = np.random.randint(0, els_no, quantity)

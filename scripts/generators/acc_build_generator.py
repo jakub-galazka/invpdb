@@ -11,4 +11,4 @@ class AccBuildGenerator(Generator):
             "account_id": super().get_ids("account", quantity),
             "building_id": super().get_ids("building", quantity),
         })
-        self.csvw.write(acc_build, "acc_build")
+        self.csvw.write(acc_build, "acc_build", False)
