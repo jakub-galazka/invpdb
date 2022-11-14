@@ -4,7 +4,7 @@ from .generator import Generator
 
 class RamStickGenerator(Generator):
 
-    MEMORY = [2**i for i in range(1, 6)]
+    MEMORY = [2**i for i in range(1, 7)]
     RAM_STICKS = {
         "DDR1": [200, 266, 300, 333, 400],
         "DDR2": [400, 533, 667, 800, 1000],
