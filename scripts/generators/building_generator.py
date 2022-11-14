@@ -34,24 +34,16 @@ class BuildingGenerator(Generator):
         return [random.randint(1, 5) for _ in range(quantity)]
 
     def _generate_streets(self, quantity: int) -> List[str]:
-        return self._generate_with_null(quantity, lambda: self.faker.street_name())
+        return super()._generate_with_null(quantity, lambda: self.faker.street_name())
 
     def _generate_street_numbers(self, quantity: int) -> List[str]:
-        return self._generate_with_null(quantity, lambda: self.faker.building_number())
+        return super()._generate_with_null(quantity, lambda: self.faker.building_number())
 
     def _generate_postal_codes(self, quantity: int) -> List[str]:
-        return self._generate_with_null(quantity, lambda: self.faker.postcode())
+        return super()._generate_with_null(quantity, lambda: self.faker.postcode())
 
     def _generate_cities(self, quantity: int) -> List[str]:
-        return self._generate_with_null(quantity, lambda: self.faker.city())
+        return super()._generate_with_null(quantity, lambda: self.faker.city())
 
     def _generate_countries(self, quantity: int) -> List[str]:
-        return self._generate_with_null(quantity, lambda: self.faker.country())
-
-    def _generate_with_null(self, quantity: int, fun) -> List[str]:
-        return [
-            ""
-            if random.random() < .5
-            else fun()
-            for _ in range(quantity)
-        ]
+        return super()._generate_with_null(quantity, lambda: self.faker.country())
