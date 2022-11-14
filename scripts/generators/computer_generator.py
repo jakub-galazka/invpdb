@@ -27,8 +27,8 @@ class ComputerGenerator(Generator):
             "computer_name": super().sample_df(computer_data, "model", index),
             "manufacturer": super().sample_df(computer_data, "manufacturer", index),
             "ssd_memory": random.choices(ComputerGenerator.SSD_MEMORY, k=quantity),
-            "hdd_memory": super().generate_with_null(quantity, lambda: random.choice(ComputerGenerator.HDD_MEMORY)),
-            "add_info": super().generate_with_null(quantity, lambda: " ".join(self.faker.text(2000).splitlines())),
+            "hdd_memory": super().generate_list(quantity, lambda: random.choice(ComputerGenerator.HDD_MEMORY), True),
+            "add_info": super().generate_list(quantity, lambda: " ".join(self.faker.text(2000).splitlines()), True),
             "room_id": super().get_ids("room", quantity),
         })
         self.csvw.write(computer, "computer")

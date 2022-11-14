@@ -5,8 +5,10 @@ from generators.room_generator import RoomGenerator
 from generators.account_generator import AccountGenerator
 from generators.building_generator import BuildingGenerator
 from generators.computer_generator import ComputerGenerator
+from generators.software_generator import SoftwareGenerator
 from generators.ram_stick_generator import RamStickGenerator
 from generators.acc_build_generator import AccBuildGenerator
+from generators.soft_comp_generator import SoftCompGenerator
 
 SEED = 0
 
@@ -19,8 +21,9 @@ def main() -> None:
         (ComputerGenerator(SEED), 100_000),
         (CPUGenerator(SEED), 100_000),
         (GPUGenerator(SEED), 100_000),
-        (RamStickGenerator(SEED), 200_000)
-
+        (RamStickGenerator(SEED), 200_000),
+        (SoftwareGenerator(SEED), 500_000),
+        (SoftCompGenerator(SEED), 500_000)
     ]
 
     for g in generators:

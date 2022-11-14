@@ -15,13 +15,10 @@ class Generator(ABC):
     def generate(self, quantity: int = 1) -> None:
         pass
 
-    def generate_with_null(self, quantity: int, fun) -> list[str]:
-        return [
-            ""
-            if random.random() < .25
-            else fun()
-            for _ in range(quantity)
-        ]
+    def generate_list(self, quantity: int, fun, null: bool = False, null_rate: int = .25) -> list:
+        if null:
+            return ["" if random.random() < null_rate else fun() for _ in range(quantity)]
+        return [fun() for _ in range(quantity)]
 
     def sample_df(self, df: pd.DataFrame, column_name: str, index: np.ndarray) -> list:
         return df.iloc[index][column_name].tolist()
