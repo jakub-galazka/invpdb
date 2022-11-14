@@ -7,8 +7,8 @@ from .generator import Generator
 class ComputerGenerator(Generator):
 
     ASSET_PATH = "scripts/generators/assets/computer_data.csv"
-    SSD_MEMORY = [2**i for i in range(7, 13)]
-    HDD_MEMORY = [1000 * i for i in range(1, 20)]
+    SSD_MEMORY = [2**i for i in range(7, 14)]
+    HDD_MEMORY = [1000 * i for i in range(1, 21)]
 
     def __init__(self, seed: int = None) -> None:
         super().__init__(seed)
