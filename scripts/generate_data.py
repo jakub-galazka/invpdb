@@ -1,5 +1,6 @@
 from typing import List
 from generators.generator import Generator
+from generators.room_generator import RoomGenerator
 from generators.account_generator import AccountGenerator
 from generators.building_generator import BuildingGenerator
 
@@ -10,6 +11,7 @@ def main():
     generators: List[(Generator, int)]  = [
         (AccountGenerator(SEED), 100),
         (BuildingGenerator(SEED), 10),
+        (RoomGenerator(SEED), 100),
         
     ]
 

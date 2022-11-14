@@ -9,14 +9,14 @@ class BuildingGenerator(Generator):
 
     def __init__(self, seed: int = None) -> None:
         self.faker = Faker()
-        if seed:
+        if not seed == None:
             self.faker.seed_instance(seed)
             random.seed(seed)
         
         Generator.__init__(self)
 
     def generate(self, quantity: int = 1) -> None:
-        df = pd.DataFrame({
+        building = pd.DataFrame({
             "building_name": self._generate_building_names(quantity),
             "floors_number": self._generate_floors_numbers(quantity),
             "street": self._generate_streets(quantity),
@@ -25,7 +25,7 @@ class BuildingGenerator(Generator):
             "city": self._generate_cities(quantity),
             "country": self._generate_countries(quantity),
         })
-        self.csvw.write(df, "building", "building_id")
+        self.csvw.write(building, "building", "building_id")
 
     def _generate_building_names(self, quantity: int) -> List[str]:
         return [self.faker.unique.company() for _ in range(quantity)]
