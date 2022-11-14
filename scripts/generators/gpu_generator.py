@@ -6,7 +6,7 @@ from .generator import Generator
 class GPUGenerator(Generator):
 
     ASSET_PATH = "scripts/generators/assets/gpu_data.csv"
-    TGP = [i for i in range(4, 22)]
+    TGP = [35, 40, 60, 75, 80, 90, 100, 115, 125, 130]
 
     def __init__(self, seed: int = None) -> None:
         super().__init__(seed)
