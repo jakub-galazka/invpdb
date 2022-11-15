@@ -1,5 +1,5 @@
 # Inventory Database
-Project of a database system for inventorying computers in many buildings for classes in Advanced Databases.
+Database project used to inventory computers in multiple buildings for Advanced Database classes
 
 # Installation
 pip install -r requirements.txt

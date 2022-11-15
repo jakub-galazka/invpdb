@@ -1,0 +1,635 @@
+cpu_name,manufacturer,cores_number,threads_number,min_clock_speed,max_clock_speed,memory
+Ryzen 9 3950X,AMD,16,32,3.5,4.7,64
+Ryzen 9 5950X,AMD,16,32,3.4,4.9,64
+Ryzen 9 3900XT,AMD,12,24,3.8,4.7,64
+Ryzen 9 3900X,AMD,12,24,3.8,4.6,64
+Ryzen 9 5900X,AMD,12,24,3.7,4.8,64
+Ryzen 9 3900,AMD,12,24,3.1,4.3,64
+Ryzen 9 PRO 3900,AMD,12,24,3.1,4.3,64
+Ryzen 7 3800XT,AMD,8,16,3.9,4.7,32
+Ryzen 7 3800X,AMD,8,16,3.9,4.5,32
+Ryzen 7 5800X,AMD,8,16,3.8,4.7,32
+Ryzen 7 2700X,AMD,8,16,3.7,4.3,16
+Ryzen 7 4700G,AMD,8,16,3.6,4.4,8
+Ryzen 7 PRO 4750G,AMD,8,16,3.6,4.4,8
+Ryzen 7 3700X,AMD,8,16,3.6,4.4,32
+Ryzen 7 PRO 3700,AMD,8,16,3.6,4.4,32
+Ryzen 7 1800X,AMD,8,16,3.6,4,16
+Ryzen 7 PRO 1700X,AMD,8,16,3.4,3.8,16
+Ryzen 7 1700X,AMD,8,16,3.4,3.8,16
+Ryzen 7 2700,AMD,8,16,3.2,4.1,16
+Ryzen 7 PRO 2700,AMD,8,16,3.2,4.1,16
+Ryzen 7 4700GE,AMD,8,16,3.1,4.3,8
+Ryzen 7 PRO 4750GE,AMD,8,16,3.1,4.3,8
+Ryzen 7 PRO 1700,AMD,8,16,3,3.7,16
+Ryzen 7 1700,AMD,8,16,3,3.7,16
+Ryzen 7 2700E,AMD,8,16,2.8,4,16
+Ryzen 5 3600XT,AMD,6,12,3.8,4.5,32
+Ryzen 5 3600X,AMD,6,12,3.8,4.4,32
+Ryzen 5 5600X,AMD,6,12,3.7,4.6,32
+Ryzen 5 4600G,AMD,6,12,3.7,4.2,8
+Ryzen 5 PRO 4650G,AMD,6,12,3.7,4.2,8
+Ryzen 5 3600,AMD,6,12,3.6,4.2,32
+Ryzen 5 PRO 3600,AMD,6,12,3.6,4.2,32
+Ryzen 5 2600X,AMD,6,12,3.6,4.2,16
+Ryzen 5 1600X,AMD,6,12,3.6,4,16
+Ryzen 5 2600,AMD,6,12,3.4,3.9,16
+Ryzen 5 PRO 2600,AMD,6,12,3.4,3.9,16
+Ryzen 5 4600GE,AMD,6,12,3.3,4.2,8
+Ryzen 5 PRO 4650GE,AMD,6,12,3.3,4.2,8
+Ryzen 5 PRO 1600,AMD,6,12,3.2,3.6,16
+Ryzen 5 1600,AMD,6,12,3.2,3.6,16
+Ryzen 5 2600E,AMD,6,12,3.1,4,16
+Ryzen 5 3500,AMD,6,12,3.6,4.2,32
+Ryzen 5 3500X,AMD,6,12,3.6,4.1,32
+Ryzen 3 3300X,AMD,4,8,3.8,4.3,16
+Ryzen 3 4300G,AMD,4,8,3.8,4,4
+Ryzen 3 PRO 4350G,AMD,4,8,3.8,4,4
+Ryzen 5 3400G,AMD,4,8,3.7,4.2,4
+Ryzen 5 PRO 3400G,AMD,4,8,3.7,4.2,4
+Ryzen 5 2500X,AMD,4,8,3.6,4,8
+Ryzen 3 3100,AMD,4,8,3.6,3.9,16
+Ryzen 5 PRO 2400G,AMD,4,8,3.6,3.9,4
+Ryzen 3 4300GE,AMD,4,8,3.5,4,4
+Ryzen 3 PRO 4350GE,AMD,4,8,3.5,4,4
+Ryzen 5 1500X,AMD,4,8,3.5,3.7,16
+Ryzen 5 PRO 1500,AMD,4,8,3.5,3.7,16
+Ryzen 5 3400GE,AMD,4,8,3.3,4,4
+Ryzen 5 PRO 3400GE,AMD,4,8,3.3,4,4
+Ryzen 5 2400GE,AMD,4,8,3.2,3.8,4
+Ryzen 5 PRO 2400GE,AMD,4,8,3.2,3.8,4
+Ryzen 5 1400,AMD,4,8,3.2,3.4,8
+A12-9800,AMD,4,8,3.8,4.2,2
+PRO A12-9800,AMD,4,8,3.8,4.2,2
+Athlon X4 970,AMD,4,8,3.8,4,2
+PRO A12-8870,AMD,4,8,3.7,4.2,2
+Ryzen 3 3200G,AMD,4,8,3.6,4,4
+Ryzen 3 PRO 3200G,AMD,4,8,3.6,4,4
+Ryzen 3 2300X,AMD,4,8,3.5,4,8
+Athlon Gold 3150G,AMD,4,8,3.5,3.9,4
+Athlon Gold PRO 3150G,AMD,4,8,3.5,3.9,4
+PRO A10-8770,AMD,4,8,3.5,3.8,2
+PRO A10-9700,AMD,4,8,3.5,3.8,2
+Ryzen 3 PRO 1300,AMD,4,8,3.5,3.7,8
+Ryzen 3 1300X,AMD,4,8,3.5,3.7,8
+Ryzen 3 2200G,AMD,4,8,3.5,3.7,4
+Ryzen 3 PRO 2200G,AMD,4,8,3.5,3.7,4
+Athlon X4 950,AMD,4,8,3.5,3.8,2
+A10-9700,AMD,4,8,3.5,3.8,2
+Ryzen 3 3200GE,AMD,4,8,3.3,3.8,4
+Ryzen 3 PRO 3200GE,AMD,4,8,3.3,3.8,4
+Athlon Gold 3150GE,AMD,4,8,3.3,3.8,4
+Athlon Gold PRO 3150GE,AMD,4,8,3.3,3.8,4
+Ryzen 3 PRO 2200GE,AMD,4,8,3.2,3.6,4
+Ryzen 3 2200GE,AMD,4,8,3.2,3.6,4
+Athlon X4 940,AMD,4,8,3.2,3.6,2
+PRO A12-9800E,AMD,4,8,3.1,3.8,2
+A12-9800E,AMD,4,8,3.1,3.8,2
+Ryzen 3 1200,AMD,4,8,3.1,3.4,8
+Ryzen 3 PRO 1200,AMD,4,8,3.1,3.4,8
+A8-9600,AMD,4,8,3.1,3.4,2
+PRO A8-9600,AMD,4,8,3.1,3.4,2
+A10-9700E,AMD,4,8,3,3.5,2
+PRO A12-8870E,AMD,4,8,2.9,3.8,2
+PRO A10-8770E,AMD,4,8,2.8,3.5,2
+Athlon 3000G,AMD,2,4,3.5,3.5,4
+Athlon 240GE,AMD,2,4,3.5,3.5,4
+Athlon Silver 3050GE,AMD,2,4,3.4,3.4,4
+Athlon Silver PRO 3125GE,AMD,2,4,3.4,3.4,4
+Athlon 300GE,AMD,2,4,3.4,3.4,4
+Athlon PRO 300GE,AMD,2,4,3.4,3.4,4
+Athlon 220GE,AMD,2,4,3.4,3.4,4
+Athlon 200GE,AMD,2,4,3.2,3.2,4
+Athlon PRO 200GE,AMD,2,4,3.2,3.2,4
+A6-9550,AMD,2,4,3.8,4,1
+PRO A6-8580,AMD,2,4,3.8,4,1
+A6-9500,AMD,2,4,3.5,3.8,1
+PRO A6-9500,AMD,2,4,3.5,3.8,1
+PRO A6-8570,AMD,2,4,3.5,3.8,1
+A6-9400,AMD,2,4,3.4,3.7,1
+A6-9500E,AMD,2,4,3,3.4,1
+Phenom II X6 1100T,AMD,6,12,3.3,3.7,6
+Phenom II X6 1090T,AMD,6,12,3.2,3.6,6
+Phenom II X6 1075T,AMD,6,12,3,3.5,6
+Phenom II X6 1065T,AMD,6,12,2.9,3.4,6
+Phenom II X6 1055T,AMD,6,12,2.8,3.3,6
+Phenom II X6 1045T,AMD,6,12,2.7,3.2,6
+Phenom II X6 1035T,AMD,6,12,2.6,3.1,6
+Phenom II X4 980,AMD,4,8,3.7,3.7,6
+Phenom II X4 975,AMD,4,8,3.6,3.6,6
+Phenom II X4 970,AMD,4,8,3.5,3.5,6
+Phenom II X4 965,AMD,4,8,3.4,3.4,6
+Phenom II X4 B99,AMD,4,8,3.4,3.4,6
+Phenom II X4 850,AMD,4,8,3.3,3.3,2
+Phenom II X4 955,AMD,4,8,3.2,3.2,6
+Phenom II X4 B97,AMD,4,8,3.2,3.2,6
+Phenom II X4 840,AMD,4,8,3.2,3.2,2
+Athlon II X4 650,AMD,4,8,3.2,3.2,2
+Athlon II X4 645,AMD,4,8,3.1,3.1,2
+Phenom II X4 960T/960,AMD,4,8,3,3.4,6
+Phenom II X4 945,AMD,4,8,3,3,6
+Phenom II X4 B95,AMD,4,8,3,3,6
+Athlon II X4 640,AMD,4,8,3,3,2
+Phenom II X4 840T,AMD,4,8,2.9,3.2,6
+Opteron 1389,AMD,4,8,2.9,2.9,6
+Athlon II X4 635,AMD,4,8,2.9,2.9,2
+Phenom II X4 925,AMD,4,8,2.8,2.8,6
+Phenom II X4 B93,AMD,4,8,2.8,2.8,6
+Phenom II X4 830,AMD,4,8,2.8,2.8,6
+Phenom II X4 820,AMD,4,8,2.8,2.8,4
+Athlon II X4 630,AMD,4,8,2.8,2.8,2
+Phenom II X4 650T,AMD,4,8,2.7,3.2,4
+Opteron 1385,AMD,4,8,2.7,2.7,6
+Phenom II X4 910e,AMD,4,8,2.6,2.6,6
+Phenom II X4 910,AMD,4,8,2.6,2.6,6
+Phenom II X4 810,AMD,4,8,2.6,2.6,4
+Athlon II X4 620e,AMD,4,8,2.6,2.6,2
+Athlon II X4 620,AMD,4,8,2.6,2.6,2
+Phenom II X4 905e,AMD,4,8,2.5,2.5,6
+Phenom II X4 805,AMD,4,8,2.5,2.5,4
+Athlon II X4 615e,AMD,4,8,2.5,2.5,2
+Opteron 1381,AMD,4,8,2.5,2.5,6
+PhenomII X4 900e,AMD,4,8,2.4,2.4,6
+AthlonII X4 610e,AMD,4,8,2.4,2.4,2
+AthlonII X4 605e,AMD,4,8,2.3,2.3,2
+AthlonII X4 600e,AMD,4,8,2.2,2.2,2
+PhenomII X4 42 TWKR BE,AMD,4,8,2,2,6
+AthlonII X3 460,AMD,3,6,3.4,3.4,1
+AthlonII X3 455,AMD,3,6,3.3,3.3,1
+PhenomII X3 B77,AMD,3,6,3.2,3.2,6
+AthlonII X3 450,AMD,3,6,3.2,3.2,1
+AthlonII X3 445,AMD,3,6,3.1,3.1,1
+PhenomII X3 740,AMD,3,6,3,3,6
+PhenomII X3 B75,AMD,3,6,3,3,6
+AthlonII X3 440,AMD,3,6,3,3,1
+AthlonII X3 435,AMD,3,6,2.9,2.9,1
+PhenomII X3 720,AMD,3,6,2.8,2.8,6
+PhenomII X3 B73,AMD,3,6,2.8,2.8,6
+AthlonII X3 425e,AMD,3,6,2.7,2.7,1
+AthlonII X3 425,AMD,3,6,2.7,2.7,1
+PhenomII X3 710,AMD,3,6,2.6,2.6,6
+AthlonII X3 420e,AMD,3,6,2.6,2.6,1
+PhenomII X3 705e,AMD,3,6,2.5,2.5,6
+AthlonII X3 415e,AMD,3,6,2.5,2.5,1
+PhenomII X3 700e,AMD,3,6,2.4,2.4,6
+AthlonII X3 405e,AMD,3,6,2.3,2.3,1
+AthlonII X3 400e,AMD,3,6,2.2,2.2,1
+AthlonII X2 280,AMD,2,4,3.6,3.6,2
+AthlonII X2 B30,AMD,2,4,3.6,3.6,2
+PhenomII X2 B60,AMD,2,4,3.5,3.5,6
+PhenomII X2 570,AMD,2,4,3.5,3.5,6
+PhenomII X2 521,AMD,2,4,3.5,3.5,2
+PhenomII X2 565,AMD,2,4,3.4,3.4,6
+PhenomII X2 511,AMD,2,4,3.4,3.4,2
+PhenomII X2 B59,AMD,2,4,3.4,3.4,6
+AthlonII X2 270,AMD,2,4,3.4,3.4,2
+AthlonII X2 B28,AMD,2,4,3.4,3.4,2
+PhenomII X2 560,AMD,2,4,3.3,3.3,6
+AthlonII X2 265,AMD,2,4,3.3,3.3,2
+PhenomII X2 555,AMD,2,4,3.2,3.2,6
+PhenomII X2 B57,AMD,2,4,3.2,3.2,6
+AthlonII X2 260,AMD,2,4,3.2,3.2,2
+AthlonII X2 B26,AMD,2,4,3.2,3.2,2
+PhenomII X2 550,AMD,2,4,3.1,3.1,6
+AthlonII X2 255,AMD,2,4,3.1,3.1,2
+PhenomII X2 545,AMD,2,4,3,3,6
+PhenomII X2 B55,AMD,2,4,3,3,6
+AthlonII X2 250e,AMD,2,4,3,3,2
+AthlonII X2 250,AMD,2,4,3,3,2
+AthlonII X2 B24,AMD,2,4,3,3,2
+AthlonII X2 245e,AMD,2,4,2.9,2.9,2
+AthlonII X2 245,AMD,2,4,2.9,2.9,2
+PhenomII X2 B53,AMD,2,4,2.8,2.8,6
+AthlonII X2 240e,AMD,2,4,2.8,2.8,2
+AthlonII X2 240,AMD,2,4,2.8,2.8,2
+AthlonII X2 220,AMD,2,4,2.8,2.8,1
+AthlonII X2 B22,AMD,2,4,2.8,2.8,2
+AthlonII X2 235e,AMD,2,4,2.7,2.7,2
+AthlonII X2 215,AMD,2,4,2.7,2.7,1
+AthlonII X2 210e,AMD,2,4,2.6,2.6,1
+Sempron X2 190,AMD,2,4,2.5,2.5,1
+Sempron X2 180,AMD,2,4,2.4,2.4,1
+Athlon II X2 270u,AMD,2,4,2,2,2
+Athlon II X2 260u,AMD,2,4,1.8,1.8,2
+Athlon II X2 250u,AMD,2,4,1.6,1.6,2
+Sempron 150,AMD,1,2,2.9,2.9,1
+Sempron 145,AMD,1,2,2.8,2.8,1
+Sempron 140,AMD,1,2,2.7,2.7,1
+Sempron 130,AMD,1,2,2.6,2.6,1
+Athlon II 170u,AMD,1,2,2,2,1
+218 Athlon II 160u,AMD,1,2,1.8,1.8,1
+Xeon X3480,Intel,4,8,3.06,3.73,8
+Core i7-880,Intel,4,8,3.06,3.73,8
+Xeon X3470,Intel,4,8,2.93,3.60,8
+Core i7-875K,Intel,4,8,2.93,3.60,8
+Core i7-870,Intel,4,8,2.93,3.60,8
+Xeon X3460,Intel,4,8,2.8,3.46,8
+Core i7-860,Intel,4,8,2.8,3.46,8
+Xeon X3450,Intel,4,8,2.66,3.2,8
+Core i7-870s,Intel,4,8,2.66,3.6,8
+Xeon X3440,Intel,4,8,2.53,2.93,8
+Core i7-860S,Intel,4,8,2.53,3.46,8
+Xeon L3426,Intel,4,8,1.86,3.2,8
+Xeon X3430,Intel,4,8,2.4,2.8,8
+Core i5-750S,Intel,4,8,2.4,3.2,8
+Core i5-760,Intel,4,8,2.8,3.33,8
+Core i5-750,Intel,4,8,2.66,3.2,8
+Core i5-680,Intel,2,4,3.6,3.86,4
+Core i5-670,Intel,2,4,3.46,3.73,4
+Core i5-661,Intel,2,4,3.33,3.6,4
+Core i5-660,Intel,2,4,3.33,3.6,4
+Core i3-560,Intel,2,4,3.33,3.33,4
+Core i5-655K,Intel,2,4,3.2,3.46,4
+Core i5-650,Intel,2,4,3.2,3.46,4
+Core i3-550,Intel,2,4,3.2,3.2,4
+Core i3-540,Intel,2,4,3.06,3.06,4
+Core i3-530,Intel,2,4,2.93,2.93,4
+Xeon L3406,Intel,2,4,2.26,2.53,4
+Pentium G6960,Intel,2,4,2.93,2.93,3
+Pentium G6951,Intel,2,4,2.8,2.8,3
+Pentium G6950,Intel,2,4,2.8,2.8,3
+Celeron G1101,Intel,2,4,2.26,2.26,2
+Xeon E3-1290 v2,Intel,4,8,3.7,4.1,8
+Xeon E3-1290,Intel,4,8,3.6,4,8
+Xeon E3-1280 v2,Intel,4,8,3.6,4,8
+Core i7-3770K,Intel,4,8,3.5,3.9,8
+Core i7-2700K,Intel,4,8,3.5,3.9,8
+Xeon E3-1275 v2,Intel,4,8,3.5,3.9,8
+Xeon E3-1280,Intel,4,8,3.5,3.9,8
+Xeon E3-1270 v2,Intel,4,8,3.5,3.9,8
+Core i7-3770,Intel,4,8,3.4,3.9,8
+Core i7-2600,Intel,4,8,3.4,3.8,8
+Core i7-2600K,Intel,4,8,3.4,3.8,8
+Xeon E3-1245 v2,Intel,4,8,3.4,3.8,8
+Xeon E3-1240 v2,Intel,4,8,3.4,3.8,8
+Xeon E3-1270,Intel,4,8,3.4,3.8,8
+Xeon E3-1275,Intel,4,8,3.4,3.8,8
+Xeon E3-1230 v2,Intel,4,8,3.3,3.7,8
+Xeon E3-1245,Intel,4,8,3.3,3.7,8
+Xeon E3-1240,Intel,4,8,3.3,3.7,8
+Xeon E3-1235,Intel,4,8,3.2,3.6,8
+Xeon E3-1230,Intel,4,8,3.2,3.6,8
+Core i7-3770S,Intel,4,8,3.1,3.9,8
+Core i7-2600S,Intel,4,8,2.8,3.8,8
+Core i7-3770T,Intel,4,8,2.5,3.7,8
+Xeon E3-1265L v2,Intel,4,8,2.5,3.5,8
+Xeon E3-1260L,Intel,4,8,2.4,3.3,8
+Core i5-3570,Intel,4,8,3.4,3.8,6
+Core i5-3570K,Intel,4,8,3.4,3.8,6
+Core i5-2550K,Intel,4,8,3.4,3.8,6
+Core i5-3550,Intel,4,8,3.3,3.7,6
+Core i5-2500,Intel,4,8,3.3,3.7,6
+Core i5-2500K,Intel,4,8,3.3,3.7,6
+Xeon E3-1225 v2,Intel,4,8,3.2,3.6,8
+Core i5-3470,Intel,4,8,3.2,3.6,6
+Core i5-2450P,Intel,4,8,3.2,3.5,6
+Core i5-3570S,Intel,4,8,3.1,3.8,6
+Core i5-3450,Intel,4,8,3.1,3.5,6
+Core i5-3350P,Intel,4,8,3.1,3.3,6
+Core i5-2400,Intel,4,8,3.1,3.4,6
+Core i5-2380P,Intel,4,8,3.1,3.4,6
+Xeon E3-1220 v2,Intel,4,8,3.1,3.5,8
+Xeon E3-1225,Intel,4,8,3.1,3.4,6
+Xeon E3-1220,Intel,4,8,3.1,3.4,8
+Core i5-3340,Intel,4,8,3.1,3.3,6
+Core i5-2320,Intel,4,8,3,3.3,6
+Core i5-3330,Intel,4,8,3,3.2,6
+Core i5-3550S,Intel,4,8,3,3.7,6
+Core i5-3475S,Intel,4,8,2.9,3.6,6
+Core i5-3470S,Intel,4,8,2.9,3.6,6
+Core i5-2310,Intel,4,8,2.9,3.2,6
+Core i5-3450S,Intel,4,8,2.8,3.5,6
+Core i5-3340S,Intel,4,8,2.8,3.3,6
+Core i5-2300,Intel,4,8,2.8,3.1,6
+Core i5-2500S,Intel,4,8,2.7,3.7,6
+Core i5-3335S,Intel,4,8,2.7,3.2,6
+Core i5-3330S,Intel,4,8,2.7,3.2,6
+Core i5-2405S,Intel,4,8,2.5,3.3,6
+Core i5-2400S,Intel,4,8,2.5,3.3,6
+Core i5-3570T,Intel,4,8,2.3,3.3,6
+Core i5-2500T,Intel,4,8,2.3,3.3,6
+Core i3-3250,Intel,2,4,3.5,3.5,3
+Core i3-3245,Intel,2,4,3.4,3.4,3
+Core i3-3240,Intel,2,4,3.4,3.4,3
+Core i3-2130,Intel,2,4,3.4,3.4,3
+Core i3-3225,Intel,2,4,3.3,3.3,3
+Core i3-3220,Intel,2,4,3.3,3.3,3
+Core i3-2125,Intel,2,4,3.3,3.3,3
+Core i3-2120,Intel,2,4,3.3,3.3,3
+Core i3-3210,Intel,2,4,3.2,3.2,3
+Core i3-2105,Intel,2,4,3.1,3.1,3
+Core i3-2102,Intel,2,4,3.1,3.1,3
+Core i3-2100,Intel,2,4,3.1,3.1,3
+Core i3-3250T,Intel,2,4,3.0,3.0,3
+Core i5-3470T,Intel,2,4,2.9,3.6,3
+Core i3-3240T,Intel,2,4,2.9,2.9,3
+Core i3-3220T,Intel,2,4,2.8,2.8,3
+Core i5-2390T,Intel,2,4,2.7,3.5,3
+Core i3-2120T,Intel,2,4,2.6,2.6,3
+Core i3-2100T,Intel,2,4,2.5,2.5,3
+Xeon E3-1220L v2,Intel,2,4,2.3,3.5,3
+Xeon E3-1220L,Intel,2,4,2.2,3.4,3
+Pentium G2140,Intel,2,4,3.3,3.3,3
+Pentium G2130,Intel,2,4,3.2,3.2,3
+Pentium G2120,Intel,2,4,3.1,3.1,3
+Pentium G870,Intel,2,4,3.1,3.1,3
+Pentium G2030,Intel,2,4,3,3,3
+Pentium G860,Intel,2,4,3,3,3
+Pentium G2020,Intel,2,4,2.9,2.9,3
+Pentium G850,Intel,2,4,2.9,2.9,3
+Pentium G645,Intel,2,4,2.9,2.9,3
+Pentium G2010,Intel,2,4,2.8,2.8,3
+Pentium G840,Intel,2,4,2.8,2.8,3
+Pentium G640,Intel,2,4,2.8,2.8,3
+Celeron G1630,Intel,2,4,2.8,2.8,2
+Pentium G2120T,Intel,2,4,2.7,2.7,3
+Pentium G632,Intel,2,4,2.7,2.7,3
+Pentium G630,Intel,2,4,2.7,2.7,3
+Celeron G1620,Intel,2,4,2.7,2.7,2
+Celeron G555,Intel,2,4,2.7,2.7,2
+Pentium G2030T,Intel,2,4,2.6,2.6,3
+Pentium G2100T,Intel,2,4,2.6,2.6,3
+Pentium G860T,Intel,2,4,2.6,2.6,3
+Pentium G620,Intel,2,4,2.6,2.6,3
+Celeron G1610,Intel,2,4,2.6,2.6,2
+Pentium G622,Intel,2,4,2.6,2.6,3
+Celeron G550,Intel,2,4,2.6,2.6,2
+Pentium G645T,Intel,2,4,2.5,2.5,3
+Pentium G2020T,Intel,2,4,2.5,2.5,3
+Celeron G540,Intel,2,4,2.5,2.5,2
+Pentium G640T,Intel,2,4,2.4,2.4,3
+Celeron G1620T,Intel,2,4,2.4,2.4,2
+Celeron G530,Intel,2,4,2.4,2.4,2
+Pentium G630T,Intel,2,4,2.3,2.3,3
+Celeron G1610T,Intel,2,4,2.3,2.3,2
+Pentium G620T,Intel,2,4,2.2,2.2,3
+Celeron G550T,Intel,2,4,2.2,2.2,2
+Celeron G540T,Intel,2,4,2.1,2.1,2
+Celeron G530T,Intel,2,4,2,2,2
+Celeron G470,Intel,1,2,2,2,1
+Celeron G465,Intel,1,2,1.9,1.9,1
+Celeron G460,Intel,1,2,1.8,1.8,1
+Celeron G440,Intel,1,2,1.6,1.6,1
+Core i9-9900KS,Intel,8,16,4,5,16
+Xeon E-2288G,Intel,8,16,3.7,5,16
+Core i9-9900K,Intel,8,16,3.6,5,16
+Core i9-9900KF,Intel,8,16,3.6,5,16
+Core i9-9900,Intel,8,16,3.1,5,16
+Core i9-9900T,Intel,8,16,2.1,4.4,16
+Xeon E-2278GEL,Intel,8,16,2,3.9,16
+Core i7-9700K,Intel,8,16,3.6,4.9,12
+Core i7-9700KF,Intel,8,16,3.6,4.9,12
+Core i7-9700F,Intel,8,16,3,4.7,12
+Core i7-9700T,Intel,8,16,2,4.3,12
+Core i7-8086K,Intel,6,12,4,5,12
+Xeon E-2286G,Intel,6,12,4,4.9,12
+Xeon E-2276G,Intel,6,12,3.8,4.9,12
+Xeon E-2186G,Intel,6,12,3.8,4.7,12
+Core i7-8700K,Intel,6,12,3.7,4.7,12
+Xeon E-2176G,Intel,6,12,3.7,4.7,12
+Xeon E-2246G,Intel,6,12,3.6,4.8,12
+Xeon E-2146G,Intel,6,12,3.5,4.5,12
+Xeon E-2236,Intel,6,12,3.4,4.8,12
+Xeon E-2136,Intel,6,12,3.3,4.5,12
+Core i7-8700,Intel,6,12,3.2,4.6,12
+Core i7-8700T,Intel,6,12,2.4,4,12
+Core i5-9600K,Intel,6,12,3.7,4.6,9
+Core i5-9600KF,Intel,6,12,3.7,4.6,9
+Core i5-8600K,Intel,6,12,3.6,4.3,9
+Xeon E-2226G,Intel,6,12,3.4,4.7,12
+Xeon E-2126G,Intel,6,12,3.3,4.5,12
+Core i5-8600,Intel,6,12,3.1,4.3,9
+Core i5-9500,Intel,6,12,3,4.4,9
+Core i5-9500F,Intel,6,12,3,4.4,9
+Core i5-8500,Intel,6,12,3,4.1,9
+Core i5-9400F,Intel,6,12,2.9,4.1,9
+Core i5-9400,Intel,6,12,2.9,4.1,9
+Core i5-8400,Intel,6,12,2.8,4,9
+Core i5-9600T,Intel,6,12,2.3,3.9,9
+Core i5-8600T,Intel,6,12,2.3,3.7,9
+Core i5-9500T,Intel,6,12,2.2,3.7,9
+Core i5-8500T,Intel,6,12,2.1,3.5,9
+Core i5-9400T,Intel,6,12,1.8,3.4,9
+Core i5-8400T,Intel,6,12,1.7,3.3,9
+Xeon E3-1285 v6,Intel,4,8,4.1,4.5,8
+Xeon E-2274G,Intel,4,8,4,4.9,8
+Xeon E-2244G,Intel,4,8,3.8,4.8,8
+Xeon E-2174G,Intel,4,8,3.8,4.7,8
+Xeon E-2144G,Intel,4,8,3.6,4.5,8
+Xeon E-2134,Intel,4,8,3.5,4.5,8
+Core i3-9350K,Intel,4,8,4,4.6,8
+Core i3-9350KF,Intel,4,8,4,4.6,8
+Core i3-8350K,Intel,4,8,4,4,8
+Core i3-9320,Intel,4,8,3.7,4.4,8
+Core i3-9300,Intel,4,8,3.7,4.3,8
+Core i3-8300,Intel,4,8,3.7,3.7,8
+Core i3-9100,Intel,4,8,3.6,4.2,6
+Core i3-9100F,Intel,4,8,3.6,4.2,6
+Core i3-8100,Intel,4,8,3.6,3.6,6
+Xeon E-2224G,Intel,4,8,3.5,4.7,8
+Xeon E-2124G,Intel,4,8,3.4,4.5,8
+Core i3-9300T,Intel,4,8,3.2,3.8,8
+Xeon E-2104G,Intel,4,8,3.2,3.2,8
+Core i3-8300T,Intel,4,8,3.2,3.2,8
+Core i3-9100T,Intel,4,8,3.1,3.7,6
+Core i3-8100T,Intel,4,8,3.1,3.1,6
+Pentium Gold G5600F,Intel,2,4,3.9,3.9,4
+Pentium Gold G5600,Intel,2,4,3.9,3.9,4
+Pentium Gold G5420,Intel,2,4,3.8,3.8,4
+Pentium Gold G5500,Intel,2,4,3.8,3.8,4
+Pentium Gold G5400,Intel,2,4,3.7,3.7,4
+Pentium G5500T,Intel,2,4,3.2,3.2,4
+Pentium Gold G5420T,Intel,2,4,3.2,3.2,4
+Pentium Gold G5400T,Intel,2,4,3.1,3.1,4
+Celeron G4930,Intel,2,4,3.2,3.2,2
+Celeron G4920,Intel,2,4,3.2,3.2,2
+Celeron G4900,Intel,2,4,3.1,3.1,2
+Celeron G4930T,Intel,2,4,3,3,2
+Celeron G4900T,Intel,2,4,2.9,2.9,2
+Core i7-7700K,Intel,4,8,4.2,4.5,8
+Core i7-6700K,Intel,4,8,4,4.2,8
+Xeon E3-1280 v6,Intel,4,8,3.9,4.2,8
+Xeon E3-1275 v6,Intel,4,8,3.8,4.2,8
+Xeon E3-1270 v6,Intel,4,8,3.8,4.2,8
+Xeon E3-1245 v6,Intel,4,8,3.7,4.1,8
+Xeon E3-1240 v6,Intel,4,8,3.7,4.1,8
+Xeon E3-1280 v5,Intel,4,8,3.7,4,8
+Core i7-7700,Intel,4,8,3.6,4.2,8
+Xeon E3-1270 v5,Intel,4,8,3.6,4,8
+Xeon E3-1275 v5,Intel,4,8,3.6,4,8
+Xeon E3-1230 v6,Intel,4,8,3.5,3.9,8
+Xeon E3-1245 v5,Intel,4,8,3.5,3.9,8
+Xeon E3-1240 v5,Intel,4,8,3.5,3.9,8
+Core i7-6700,Intel,4,8,3.4,4,8
+Xeon E3-1230 v5,Intel,4,8,3.4,3.8,8
+Xeon E3-1260L v5,Intel,4,8,2.9,3.9,8
+Core i7-7700T,Intel,4,8,2.9,3.8,8
+Core i7-6700T,Intel,4,8,2.8,3.6,8
+Xeon E3-1268L v5,Intel,4,8,2.4,3.4,8
+Core i7-6700TE,Intel,4,8,2.4,3.4,8
+Xeon E3-1240L v5,Intel,4,8,2.1,3.2,8
+Core i5-7600K,Intel,4,8,3.8,4.2,6
+Core i5-7600,Intel,4,8,3.5,4.1,6
+Core i5-6600K,Intel,4,8,3.5,3.9,6
+Core i5-7500,Intel,4,8,3.4,3.8,6
+Core i5-6600,Intel,4,8,3.3,3.9,6
+Xeon E3-1225 v6,Intel,4,8,3.3,3.7,8
+Xeon E3-1225 v5,Intel,4,8,3.3,3.7,8
+Core i5-6500,Intel,4,8,3.2,3.6,6
+Core i5-7400,Intel,4,8,3,3.5,6
+Xeon E3-1220 v6,Intel,4,8,3,3.5,8
+Xeon E3-1220 v5,Intel,4,8,3,3.5,8
+Core i5-7600T,Intel,4,8,2.8,3.7,6
+Core i5-6402P,Intel,4,8,2.8,3.4,6
+Core i5-6600T,Intel,4,8,2.7,3.5,6
+Core i5-7500T,Intel,4,8,2.7,3.3,6
+Core i5-6400,Intel,4,8,2.7,3.3,6
+Core i5-6500T,Intel,4,8,2.5,3.1,6
+Core i5-7400T,Intel,4,8,2.4,3,6
+Core i5-6500TE,Intel,4,8,2.3,3.3,6
+Core i5-6400T,Intel,4,8,2.2,2.8,6
+Xeon E3-1235L v5,Intel,4,8,2,3,8
+Core i3-7350K,Intel,2,4,4.2,4.2,4
+Core i3-7320,Intel,2,4,4.1,4.1,4
+Core i3-7300,Intel,2,4,4,4,4
+Core i3-7101E,Intel,2,4,3.9,3.9,3
+Core i3-6320,Intel,2,4,3.9,3.9,4
+Core i3-7100,Intel,2,4,3.9,3.9,3
+Core i3-6300,Intel,2,4,3.8,3.8,4
+Core i3-6100,Intel,2,4,3.7,3.7,3
+Pentium G4620,Intel,2,4,3.7,3.7,3
+Core i3-6098P,Intel,2,4,3.6,3.6,3
+Pentium G4600,Intel,2,4,3.6,3.6,3
+Core i3-7300T,Intel,2,4,3.5,3.5,4
+Pentium G4560,Intel,2,4,3.5,3.5,3
+Core i3-7100T,Intel,2,4,3.4,3.4,3
+Core i3-7101TE,Intel,2,4,3.4,3.4,3
+Core i3-6300T,Intel,2,4,3.3,3.3,4
+Core i3-6100T,Intel,2,4,3.2,3.2,3
+Pentium G4600T,Intel,2,4,3,3,3
+Pentium G4560T,Intel,2,4,2.9,2.9,3
+Core i3-6100TE,Intel,2,4,2.7,2.7,4
+Pentium G4520,Intel,2,4,3.6,3.6,3
+Pentium G4500,Intel,2,4,3.5,3.5,3
+Pentium G4400,Intel,2,4,3.3,3.3,3
+Pentium G4400TE,Intel,2,4,3.3,3.3,3
+Pentium G4500T,Intel,2,4,3,3,3
+Celeron G3950,Intel,2,4,3,3,2
+Pentium G4400T,Intel,2,4,2.9,2.9,3
+Celeron G3920,Intel,2,4,2.9,2.9,2
+Celeron G3930,Intel,2,4,2.9,2.9,2
+Celeron G3900,Intel,2,4,2.8,2.8,2
+Celeron G3900TE,Intel,2,4,2.8,2.8,2
+Celeron G3930TE,Intel,2,4,2.7,2.7,2
+Celeron G3930T,Intel,2,4,2.7,2.7,2
+Celeron G3900T,Intel,2,4,2.6,2.6,2
+Core i7-4790K,Intel,4,8,4,4.4,8
+Xeon E3-1286 V3,Intel,4,8,3.7,4.1,8
+Xeon E3-1281 V3,Intel,4,8,3.7,4.1,8
+Core i7-4790,Intel,4,8,3.6,4,8
+Xeon E3-1280 v3,Intel,4,8,3.6,4,8
+Xeon E3-1271 V3,Intel,4,8,3.6,4,8
+Xeon E3-1276 V3,Intel,4,8,3.6,4,8
+Xeon E3-1285 v3,Intel,4,8,3.6,4,8
+Core i7-4771,Intel,4,8,3.5,3.9,8
+Core i7-4770K,Intel,4,8,3.5,3.9,8
+Xeon E3-1275 v3,Intel,4,8,3.5,3.9,8
+Xeon E3-1270 v3,Intel,4,8,3.5,3.9,8
+Xeon E3-1241 V3,Intel,4,8,3.5,3.9,8
+Xeon E3-1246 V3,Intel,4,8,3.5,3.9,8
+Xeon E3-1285 v4,Intel,4,8,3.5,3.8,6
+Xeon E3-1285L v4,Intel,4,8,3.4,3.8,6
+Xeon E3-1240 v3,Intel,4,8,3.4,3.8,8
+Xeon E3-1231 V3,Intel,4,8,3.4,3.8,8
+Xeon E3-1245 v3,Intel,4,8,3.4,3.8,8
+Core i7-4770,Intel,4,8,3.4,3.9,8
+Core i7-5775C,Intel,4,8,3.3,3.7,6
+Xeon E3-1230 v3,Intel,4,8,3.3,3.7,8
+Core i7-4790S,Intel,4,8,3.2,4,8
+Xeon E3-1286L V3,Intel,4,8,3.2,4,8
+Core i7-4770S,Intel,4,8,3.1,3.9,8
+Xeon E3-1285L v3,Intel,4,8,3.1,3.9,8
+Xeon E3-1270L v4,Intel,4,8,3,3.6,6
+Xeon E3-1275L V3,Intel,4,8,2.7,3.9,8
+Core i7-4790T,Intel,4,8,2.7,3.9,8
+Core i7-4770T,Intel,4,8,2.5,3.7,8
+Xeon E3-1265L v3,Intel,4,8,2.5,3.7,8
+Xeon E3-1268L v3,Intel,4,8,2.3,3.3,8
+Core i7-4770TE,Intel,4,8,2.3,3.3,8
+Xeon E3-1265L V4,Intel,4,8,2.3,3.3,6
+Core i7-4785T,Intel,4,8,2.2,3.2,8
+Core i7-4765T,Intel,4,8,2,3,8
+Xeon E3-1240L V3,Intel,4,8,2,3,8
+Xeon E3-1230L v3,Intel,4,8,1.8,2.8,8
+Core i5-4690,Intel,4,8,3.5,3.9,6
+Core i5-4690K,Intel,4,8,3.5,3.9,6
+Core i5-4670,Intel,4,8,3.4,3.8,6
+Core i5-4670K,Intel,4,8,3.4,3.8,6
+Core i5-4590,Intel,4,8,3.3,3.7,6
+Xeon E3-1226 V3,Intel,4,8,3.3,3.7,8
+Core i5-4690S,Intel,4,8,3.2,3.9,6
+Core i5-4570,Intel,4,8,3.2,3.6,6
+Core i5-4460,Intel,4,8,3.2,3.4,6
+Xeon E3-1225 v3,Intel,4,8,3.2,3.6,8
+Core i5-4670S,Intel,4,8,3.1,3.8,6
+Core i5-5675C,Intel,4,8,3.1,3.6,4
+Core i5-4440,Intel,4,8,3.1,3.3,6
+Xeon E3-1220 v3,Intel,4,8,3.1,3.5,8
+Core i5-4590S,Intel,4,8,3,3.7,6
+Core i5-4430,Intel,4,8,3,3.2,6
+Core i5-4570S,Intel,4,8,2.9,3.6,6
+Core i5-4460S,Intel,4,8,2.9,3.4,6
+Core i5-4440S,Intel,4,8,2.8,3.3,6
+Core i5-4430S,Intel,4,8,2.7,3.2,6
+Core i5-4690T,Intel,4,8,2.5,3.5,6
+Core i5-4670T,Intel,4,8,2.3,3.3,6
+Core i5-4590T,Intel,4,8,2,3,6
+Core i5-4460T,Intel,4,8,1.9,2.7,6
+Core i3-4370,Intel,2,4,3.8,3.8,4
+Core i3-4360,Intel,2,4,3.7,3.7,4
+Core i3-4170,Intel,2,4,3.7,3.7,3
+Core i3-4350,Intel,2,4,3.6,3.6,4
+Core i3-4340,Intel,2,4,3.6,3.6,4
+Core i3-4160,Intel,2,4,3.6,3.6,3
+Core i3-4330,Intel,2,4,3.5,3.5,4
+Core i3-4150,Intel,2,4,3.5,3.5,3
+Core i3-4130,Intel,2,4,3.4,3.4,3
+Core i3-4370T,Intel,2,4,3.3,3.3,4
+Core i3-4360T,Intel,2,4,3.2,3.2,4
+Core i3-4170T,Intel,2,4,3.2,3.2,3
+Core i3-4350T,Intel,2,4,3.1,3.1,4
+Core i3-4160T,Intel,2,4,3.1,3.1,3
+Core i3-4330T,Intel,2,4,3,3,4
+Core i3-4150T,Intel,2,4,3,3,3
+Core i5-4570T,Intel,2,4,2.9,3.6,4
+Core i3-4130T,Intel,2,4,2.9,2.9,3
+Core i5-4570TE,Intel,2,4,2.7,3.3,4
+Core i3-4330TE,Intel,2,4,2.4,2.4,4
+Xeon E3-1220L v3,Intel,2,4,1.1,1.5,4
+Pentium G3470,Intel,2,4,3.6,3.6,3
+Pentium G3460,Intel,2,4,3.5,3.5,3
+Pentium G3450,Intel,2,4,3.4,3.4,3
+Pentium G3440,Intel,2,4,3.3,3.3,3
+Pentium G3430,Intel,2,4,3.3,3.3,3
+Pentium G3260,Intel,2,4,3.3,3.3,3
+Pentium G3420,Intel,2,4,3.2,3.2,3
+Pentium G3258,Intel,2,4,3.2,3.2,3
+Pentium G3250,Intel,2,4,3.2,3.2,3
+Pentium G3240,Intel,2,4,3.1,3.1,3
+Pentium G3460T,Intel,2,4,3,3,3
+Pentium G3220,Intel,2,4,3,3,3
+Pentium G3450T,Intel,2,4,2.9,2.9,3
+Pentium G3260T,Intel,2,4,2.9,2.9,3
+Celeron G1850,Intel,2,4,2.9,2.9,2
+Pentium G3440T,Intel,2,4,2.8,2.8,3
+Pentium G3250T,Intel,2,4,2.8,2.8,3
+Celeron G1840,Intel,2,4,2.8,2.8,2
+Celeron G1830,Intel,2,4,2.8,2.8,2
+Pentium G3420T,Intel,2,4,2.7,2.7,3
+Pentium G3240T,Intel,2,4,2.7,2.7,3
+Celeron G1820,Intel,2,4,2.7,2.7,2
+Pentium G3220T,Intel,2,4,2.6,2.6,3
+Celeron G1840T,Intel,2,4,2.5,2.5,2
+Celeron G1820T,Intel,2,4,2.4,2.4,2
+Pentium G3320TE,Intel,2,4,2.3,2.3,3
+Pentium G1820TE,Intel,2,4,2.2,2.2,2
