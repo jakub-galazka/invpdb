@@ -6,6 +6,8 @@ from abc import ABC, abstractmethod
 
 class Generator(ABC):
 
+    NULL_RATE = .25
+
     def __init__(self, seed: int = None) -> None:
         self.csvw = CSVWriter()
         if not seed == None:
@@ -15,8 +17,8 @@ class Generator(ABC):
     def generate(self, quantity: int = 1) -> None:
         pass
 
-    def generate_list(self, quantity: int, fun, null: bool = False, null_rate: int = .25) -> list:
-        if null:
+    def generate_list(self, quantity: int, fun, null_rate: int = None) -> list:
+        if not null_rate == None:
             return ["" if random.random() < null_rate else fun() for _ in range(quantity)]
         return [fun() for _ in range(quantity)]
 

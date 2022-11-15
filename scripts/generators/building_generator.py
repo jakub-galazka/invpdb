@@ -15,10 +15,10 @@ class BuildingGenerator(Generator):
         building = pd.DataFrame({
             "building_name": super().generate_list(quantity, lambda: self.faker.unique.company()),
             "floors_number": super().generate_list(quantity, lambda: random.randint(1, 5)),
-            "street": super().generate_list(quantity, lambda: self.faker.street_name(), True),
-            "street_number": super().generate_list(quantity, lambda: self.faker.building_number(), True),
-            "postal_code": super().generate_list(quantity, lambda: self.faker.postcode(), True),
-            "city": super().generate_list(quantity, lambda: self.faker.city(), True),
-            "country": super().generate_list(quantity, lambda: self.faker.country(), True),
+            "street": super().generate_list(quantity, lambda: self.faker.street_name(), Generator.NULL_RATE),
+            "street_number": super().generate_list(quantity, lambda: self.faker.building_number(), Generator.NULL_RATE),
+            "postal_code": super().generate_list(quantity, lambda: self.faker.postcode(), Generator.NULL_RATE),
+            "city": super().generate_list(quantity, lambda: self.faker.city(), Generator.NULL_RATE),
+            "country": super().generate_list(quantity, lambda: self.faker.country(), Generator.NULL_RATE),
         })
         self.csvw.write(building, "building")

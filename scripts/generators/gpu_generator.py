@@ -23,7 +23,7 @@ class GPUGenerator(Generator):
             "gpu_name": super().sample_df(gpu_data, "gpu_name", index),
             "manufacturer": super().sample_df(gpu_data, "manufacturer", index),
             "memory": super().sample_df(gpu_data, "memory", index),
-            "tgp": super().generate_list(quantity, lambda: random.choice(GPUGenerator.TGP), True),
+            "tgp": super().generate_list(quantity, lambda: random.choice(GPUGenerator.TGP), Generator.NULL_RATE),
             "computer_id": super().get_ids("computer", quantity)
         })
         self.csvw.write(gpu, "gpu")
