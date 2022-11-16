@@ -1,14 +1,4 @@
-from generators.generator import Generator
-from generators.cpu_generator import CPUGenerator
-from generators.gpu_generator import GPUGenerator
-from generators.room_generator import RoomGenerator
-from generators.account_generator import AccountGenerator
-from generators.building_generator import BuildingGenerator
-from generators.computer_generator import ComputerGenerator
-from generators.software_generator import SoftwareGenerator
-from generators.ram_stick_generator import RamStickGenerator
-from generators.acc_build_generator import AccBuildGenerator
-from generators.soft_comp_generator import SoftCompGenerator
+from generators import Generator, AccountGenerator, BuildingGenerator, AccBuildGenerator, RoomGenerator, ComputerGenerator, CPUGenerator, GPUGenerator, RamStickGenerator, SoftwareGenerator, SoftCompGenerator
 
 SEED = 0
 
