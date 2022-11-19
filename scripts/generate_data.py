@@ -1,6 +1,19 @@
-from generators import Generator, AccountGenerator, BuildingGenerator, AccBuildGenerator, RoomGenerator, ComputerGenerator, CPUGenerator, GPUGenerator, RamStickGenerator, SoftwareGenerator, SoftCompGenerator
+from generators import (
+    Generator,
+    AccountGenerator,
+    BuildingGenerator,
+    AccBuildGenerator,
+    RoomGenerator,
+    ComputerGenerator,
+    CPUGenerator,
+    GPUGenerator,
+    RamStickGenerator,
+    SoftwareGenerator,
+    SoftCompGenerator,
+)
 
 SEED = 0
+
 
 def main() -> None:
     generators: list[tuple[Generator, int]]  = [
@@ -18,6 +31,7 @@ def main() -> None:
 
     for g in generators:
         g[0].generate(g[1])
+
 
 if __name__ == "__main__":
     main()
