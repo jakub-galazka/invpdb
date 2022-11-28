@@ -1,6 +1,6 @@
 class SQLScript:
 
-    EXPLAIN_PLAN_STATEMENT = "EXPLAIN PLAN FOR"
+    EXPLAIN_PLAN_STATEMENT = "EXPLAIN PLAN FOR\n"
     SELECT_QUERY_PLAN = "SELECT * FROM table(DBMS_XPLAN.DISPLAY)"
 
     def __init__(self, sql_script_path: str) -> None:
