@@ -1,5 +1,6 @@
 import os
 import cx_Oracle
+import pandas as pd
 from time import time
 from sqlscript import SQLScript
 
@@ -9,30 +10,43 @@ DB_USER = "INVADM"
 DB_PASS = "admin123"
 
 # Paths
-ROOT = "transactions"
-REPORT_OUTPUT = "transactions_report.txt"
+ROOT = "workload"
+TRANSACTIONS_DIR = os.path.join(ROOT, "transactions")
+QUERY_PLANS_DIR = os.path.join(ROOT, "query_plans")
+
+ITERATIONS = 10
 
 def main():
     # Connect string format: [username]/[password]@//[hostname]:[port]/[DB service name]
     conn = cx_Oracle.connect("%s/%s@//localhost:1521/%s" % (DB_USER, DB_PASS, DB_NAME))
     cur = conn.cursor()
 
-    scripts: list[SQLScript] = []
-    for script_name in os.listdir(ROOT):
-        print("START", script_name)
-        script = SQLScript(os.path.join(ROOT, script_name))
+    scripts = {}
+    for script_name in os.listdir(TRANSACTIONS_DIR):
+        script = SQLScript(os.path.join(TRANSACTIONS_DIR, script_name))
 
-        script.set_execution_time(execute_statements(cur, script.get_script_statements()))
+        print("START", script_name)
+        for i in range(ITERATIONS):
+            print(f'{i + 1}/{ITERATIONS}')
+            script.add_execution_time(execute_statements(cur, script.get_script_statements()))
+            cur.execute("ALTER SYSTEM FLUSH BUFFER_CACHE")
+        print("DONE", script_name)
+
+        # Query plan
         execute_statements(cur, script.get_explain_plan())
         script.set_query_plan(cur.fetchall())
+        query_plan_path = os.path.join(QUERY_PLANS_DIR, f'{script_name.split(".")[0]}.txt')
+        with open(query_plan_path, "w") as f:
+            f.write(script.get_query_plan())
 
-        scripts.append(script)
-        print("DONE")
+        scripts[script_name] = script.get_execution_times()
 
-    with open(REPORT_OUTPUT, "w") as f:
-        for s in scripts:
-            f.write(s.generate_report())
-            f.write("%s\n\n" % "".join("#" for _ in range(150)))
+    # Report
+    df = pd.DataFrame(scripts)
+    df.loc["min"] = df.min()
+    df.loc["max"] = df.max()
+    df.loc["avg"] = df.mean()
+    df.to_csv(os.path.join(ROOT, "report.csv"))
 
 def execute_statements(cur, statements: list[str]) -> float:
     start = time()
