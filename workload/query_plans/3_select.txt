@@ -1,0 +1,20 @@
+Plan hash value: 1873469579
+ 
+---------------------------------------------------------------------------------
+| Id  | Operation            | Name     | Rows  | Bytes | Cost (%CPU)| Time     |
+---------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT     |          |     1 |    12 |   344K  (1)| 00:00:14 |
+|   1 |  SORT AGGREGATE      |          |     1 |    12 |            |          |
+|*  2 |   FILTER             |          |       |       |            |          |
+|*  3 |    TABLE ACCESS FULL | ROOM     |    20 |   240 |   171   (1)| 00:00:01 |
+|   4 |    SORT AGGREGATE    |          |     1 |     5 |            |          |
+|*  5 |     TABLE ACCESS FULL| COMPUTER |    10 |    50 | 34158   (1)| 00:00:02 |
+---------------------------------------------------------------------------------
+ 
+Predicate Information (identified by operation id):
+---------------------------------------------------
+ 
+   2 - filter( (SELECT COUNT(*) FROM "COMPUTER" "COMPUTER" WHERE 
+              "ROOM_ID"=:B1)>2)
+   3 - filter("R"."BUILDING_ID"=100 AND "R"."FLOOR"=1)
+   5 - filter("ROOM_ID"=:B1)

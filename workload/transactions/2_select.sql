@@ -1,5 +1,5 @@
 /*
-    Display servers information (computer_id, computer_name, ssd_memory, hdd_memory add_info) in the room.
+    Display servers information (computer_id, computer_name, ssd_memory, hdd_memory, add_info) in the room.
     A server is a computer with more than 1 CPU OR more than 1 graphics card OR more than 2 RAM sticks.
 */
 SELECT COUNT(*) FROM (

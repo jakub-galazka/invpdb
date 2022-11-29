@@ -1,0 +1,23 @@
+Plan hash value: 1849097416
+ 
+-------------------------------------------------------------------------------------------
+| Id  | Operation              | Name     | Rows  | Bytes |TempSpc| Cost (%CPU)| Time     |
+-------------------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT       |          |     1 |       |       | 39798   (1)| 00:00:02 |
+|   1 |  SORT AGGREGATE        |          |     1 |       |       |            |          |
+|   2 |   VIEW                 |          | 48278 |       |       | 39798   (1)| 00:00:02 |
+|   3 |    HASH GROUP BY       |          | 48278 |  3535K|  3992K| 39798   (1)| 00:00:02 |
+|*  4 |     HASH JOIN          |          | 48278 |  3535K|       | 38944   (1)| 00:00:02 |
+|   5 |      TABLE ACCESS FULL | ROOM     | 50000 |   439K|       |   171   (1)| 00:00:01 |
+|*  6 |      HASH JOIN         |          |   500K|    31M|    10M| 38769   (1)| 00:00:02 |
+|   7 |       TABLE ACCESS FULL| COMPUTER |   500K|  4882K|       | 34157   (1)| 00:00:02 |
+|   8 |       TABLE ACCESS FULL| GPU      |   500K|    26M|       |  2473   (1)| 00:00:01 |
+-------------------------------------------------------------------------------------------
+ 
+Predicate Information (identified by operation id):
+---------------------------------------------------
+ 
+   4 - access("R"."ROOM_ID"="CP"."ROOM_ID")
+       filter("R"."BUILDING_ID"=250 AND "G"."GPU_NAME" LIKE '%RTX%' OR 
+              "G"."GPU_NAME" LIKE '%GTX%' OR "G"."GPU_NAME" LIKE '%R%')
+   6 - access("CP"."COMPUTER_ID"="G"."COMPUTER_ID")
