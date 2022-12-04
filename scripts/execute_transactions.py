@@ -5,7 +5,7 @@ from time import time
 from sqlscript import SQLScript
 from database_connection import dbConnect
 
-# Database connection, see sqlscript
+# Database connection, see sqlscript.py
 DB_NAME = dbConnect.DB_NAME
 DB_USER = dbConnect.DB_USER
 DB_PASS = dbConnect.DB_PASS
