@@ -1,10 +1,9 @@
-/* Assign accounts to the computer (well than average components) and room.
+-- Assign accounts to the computer (well than average components) and room.
 -- Components:
 -- SSD MEMORY greater than 2322
 -- GPU TPG greater than 85
 -- CPU CORES NUMBER greater than 4
-RAM STICK MEMORY greater than 21
-*/
+-- RAM STICK MEMORY greater than 21
 INSERT INTO workplace (computer_id, room_id, account_id)
 SELECT computer.computer_id, computer.room_id, account_id FROM computer
 JOIN account ON account.account_id = computer.computer_id
