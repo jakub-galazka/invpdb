@@ -1,20 +1,38 @@
-Plan hash value: 1873469579
+Plan hash value: 1294510437
  
----------------------------------------------------------------------------------
-| Id  | Operation            | Name     | Rows  | Bytes | Cost (%CPU)| Time     |
----------------------------------------------------------------------------------
-|   0 | SELECT STATEMENT     |          |     1 |    12 |   344K  (1)| 00:00:14 |
-|   1 |  SORT AGGREGATE      |          |     1 |    12 |            |          |
-|*  2 |   FILTER             |          |       |       |            |          |
-|*  3 |    TABLE ACCESS FULL | ROOM     |    20 |   240 |   171   (1)| 00:00:01 |
-|   4 |    SORT AGGREGATE    |          |     1 |     5 |            |          |
-|*  5 |     TABLE ACCESS FULL| COMPUTER |    10 |    50 | 34158   (1)| 00:00:02 |
----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+| Id  | Operation                       | Name              | Rows  | Bytes | Cost (%CPU)| Time     |
+-----------------------------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT                |                   |     1 |       | 39381   (1)| 00:00:02 |
+|   1 |  SORT AGGREGATE                 |                   |     1 |       |            |          |
+|   2 |   VIEW                          |                   |    44 |       | 39381   (1)| 00:00:02 |
+|   3 |    HASH GROUP BY                |                   |    44 |  4664 | 39381   (1)| 00:00:02 |
+|   4 |     NESTED LOOPS                |                   |    44 |  4664 | 39380   (1)| 00:00:02 |
+|   5 |      NESTED LOOPS               |                   |   546 |  4664 | 39380   (1)| 00:00:02 |
+|*  6 |       HASH JOIN                 |                   |   546 | 22386 | 38288   (1)| 00:00:02 |
+|*  7 |        HASH JOIN                |                   |   136 |  4216 | 37090   (1)| 00:00:02 |
+|*  8 |         HASH JOIN               |                   |   136 |  3128 | 34336   (1)| 00:00:02 |
+|*  9 |          TABLE ACCESS FULL      | ACCOUNT_BUILDING  |     4 |    16 |     3   (0)| 00:00:01 |
+|* 10 |          HASH JOIN              |                   |  2969 | 56411 | 34332   (1)| 00:00:02 |
+|* 11 |           TABLE ACCESS FULL     | ROOM              |   300 |  2700 |   172   (2)| 00:00:01 |
+|  12 |           TABLE ACCESS FULL     | COMPUTER          |   500K|  4882K| 34158   (1)| 00:00:02 |
+|  13 |         TABLE ACCESS FULL       | CPU               |   500K|  3906K|  2751   (1)| 00:00:01 |
+|  14 |        TABLE ACCESS FULL        | SOFTWARE_COMPUTER |  2000K|    19M|  1185   (3)| 00:00:01 |
+|* 15 |       INDEX UNIQUE SCAN         | SYS_C009056       |     1 |       |     1   (0)| 00:00:01 |
+|* 16 |      TABLE ACCESS BY INDEX ROWID| SOFTWARE          |     1 |    65 |     2   (0)| 00:00:01 |
+-----------------------------------------------------------------------------------------------------
  
 Predicate Information (identified by operation id):
 ---------------------------------------------------
  
-   2 - filter( (SELECT COUNT(*) FROM "COMPUTER" "COMPUTER" WHERE 
-              "ROOM_ID"=:B1)>2)
-   3 - filter("R"."BUILDING_ID"=100 AND "R"."FLOOR"=1)
-   5 - filter("ROOM_ID"=:B1)
+   6 - access("CP"."COMPUTER_ID"="SC"."COMPUTER_ID")
+   7 - access("CP"."COMPUTER_ID"="CPU"."COMPUTER_ID")
+   8 - access("R"."BUILDING_ID"="ACCB"."BUILDING_ID")
+   9 - filter("ACCB"."BUILDING_ID"=1 OR "ACCB"."BUILDING_ID"=2 OR "ACCB"."BUILDING_ID"=3)
+  10 - access("R"."ROOM_ID"="CP"."ROOM_ID")
+  11 - filter("R"."BUILDING_ID"=1 OR "R"."BUILDING_ID"=2 OR "R"."BUILDING_ID"=3)
+  15 - access("SC"."SOFTWARE_ID"="S"."SOFTWARE_ID")
+  16 - filter(("S"."PUBLISHER"='IBM' OR "S"."EXPIRE_DATE">=TO_DATE(' 2023-12-31 00:00:00', 
+              'syyyy-mm-dd hh24:mi:ss') AND "S"."PUBLISHER"='Google') AND ("S"."PUBLISHER"='IBM' AND 
+              "CPU"."MEMORY">8 OR "S"."PUBLISHER"='Google' AND "S"."EXPIRE_DATE">=TO_DATE(' 2023-12-31 
+              00:00:00', 'syyyy-mm-dd hh24:mi:ss')))

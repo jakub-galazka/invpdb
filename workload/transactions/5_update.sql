@@ -16,4 +16,3 @@ WHERE software_id IN (
     AND s.expire_date <= TO_DATE('31/12/2022', 'DD/MM/YYYY')
     AND s.publisher IN ('Microsoft', 'Mozilla', 'Yahoo', 'Adobe', 'IBM', 'Google', 'JetBrains')
 );
-ROLLBACK;
