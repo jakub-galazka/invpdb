@@ -20,3 +20,4 @@ WHERE computer_id IN (
         WHERE ir.building_id = 1
     )
 );
+ROLLBACK;

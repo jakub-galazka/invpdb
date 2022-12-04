@@ -3,11 +3,12 @@ import cx_Oracle
 import pandas as pd
 from time import time
 from sqlscript import SQLScript
+from database_connection import dbConnect
 
-# Database connection
-DB_NAME = "XEPDB1"
-DB_USER = "dgalik"
-DB_PASS = "dawid"
+# Database connection, see sqlscript
+DB_NAME = dbConnect.DB_NAME
+DB_USER = dbConnect.DB_USER
+DB_PASS = dbConnect.DB_PASS
 
 # Paths
 ROOT = "workload"
