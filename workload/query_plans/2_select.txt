@@ -3,10 +3,10 @@ Plan hash value: 3132378015
 ----------------------------------------------------------------------------------
 | Id  | Operation            | Name      | Rows  | Bytes | Cost (%CPU)| Time     |
 ----------------------------------------------------------------------------------
-|   0 | SELECT STATEMENT     |           |     1 |    10 | 47776   (1)| 00:00:02 |
+|   0 | SELECT STATEMENT     |           |     1 |    10 | 47779   (1)| 00:00:02 |
 |   1 |  SORT AGGREGATE      |           |     1 |    10 |            |          |
 |*  2 |   FILTER             |           |       |       |            |          |
-|*  3 |    TABLE ACCESS FULL | COMPUTER  |    10 |   100 | 34158   (1)| 00:00:02 |
+|*  3 |    TABLE ACCESS FULL | COMPUTER  |    10 |   100 | 34159   (1)| 00:00:02 |
 |   4 |    SORT AGGREGATE    |           |     1 |     5 |            |          |
 |*  5 |     TABLE ACCESS FULL| CPU       |     2 |    10 |  2753   (1)| 00:00:01 |
 |   6 |    SORT AGGREGATE    |           |     1 |     5 |            |          |

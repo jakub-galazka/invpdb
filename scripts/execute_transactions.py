@@ -5,9 +5,9 @@ from time import time
 from sqlscript import SQLScript
 
 # Database connection
-DB_NAME = "INVPDB"
-DB_USER = "INVADM"
-DB_PASS = "admin123"
+DB_NAME = "XEPDB1"
+DB_USER = "dgalik"
+DB_PASS = "dawid"
 
 # Paths
 ROOT = "workload"
@@ -46,6 +46,7 @@ def main():
     df.loc["min"] = df.min()
     df.loc["max"] = df.max()
     df.loc["avg"] = df.mean()
+    df.loc["std"] = df.std()
     df.to_csv(os.path.join(ROOT, "report.csv"))
 
 def execute_statements(cur, statements: list[str]) -> float:
