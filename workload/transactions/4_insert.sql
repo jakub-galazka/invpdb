@@ -15,3 +15,4 @@ WHERE computer.ssd_memory > (SELECT ROUND(AVG(computer.ssd_memory)) FROM compute
 AND gpu.tgp >= (SELECT ROUND(AVG(gpu.tgp)) FROM gpu)
 AND cpu.cores_number >= (SELECT ROUND(AVG(cpu.cores_number)) FROM cpu)
 AND ram_stick.memory >= (SELECT ROUND(AVG(ram_stick.memory)) FROM ram_stick);
+ROLLBACK;
