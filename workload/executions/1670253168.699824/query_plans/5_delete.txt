@@ -1,13 +1,13 @@
-Plan hash value: 1295083967
+Plan hash value: 2445708771
  
 -----------------------------------------------------------------------------------------------------
 | Id  | Operation                             | Name        | Rows  | Bytes | Cost (%CPU)| Time     |
 -----------------------------------------------------------------------------------------------------
-|   0 | DELETE STATEMENT                      |             |     2 |    46 | 60789   (1)| 00:00:03 |
+|   0 | DELETE STATEMENT                      |             |     2 |    46 | 60788   (1)| 00:00:03 |
 |   1 |  DELETE                               | COMPUTER    |       |       |            |          |
-|   2 |   NESTED LOOPS                        |             |     2 |    46 | 60789   (1)| 00:00:03 |
-|   3 |    NESTED LOOPS                       |             |     2 |    46 | 60789   (1)| 00:00:03 |
-|   4 |     VIEW                              | VW_NSO_1    |     2 |    26 | 60784   (1)| 00:00:03 |
+|   2 |   NESTED LOOPS                        |             |     2 |    46 | 60788   (1)| 00:00:03 |
+|   3 |    NESTED LOOPS                       |             |     2 |    46 | 60788   (1)| 00:00:03 |
+|   4 |     VIEW                              | VW_NSO_1    |     2 |    26 | 60783   (1)| 00:00:03 |
 |   5 |      SORT UNIQUE                      |             |     2 |    92 |            |          |
 |*  6 |       HASH JOIN SEMI                  |             |     2 |    92 | 23697   (1)| 00:00:01 |
 |*  7 |        HASH JOIN RIGHT SEMI           |             |     4 |   164 | 21221   (1)| 00:00:01 |
@@ -16,18 +16,18 @@ Plan hash value: 1295083967
 |  10 |          NESTED LOOPS                 |             |  9144 |   258K| 21050   (1)| 00:00:01 |
 |  11 |           NESTED LOOPS                |             |  9144 |   169K|  2752   (1)| 00:00:01 |
 |  12 |            TABLE ACCESS BY INDEX ROWID| BUILDING    |     1 |     7 |     1   (0)| 00:00:01 |
-|* 13 |             INDEX UNIQUE SCAN         | SYS_C009024 |     1 |       |     0   (0)| 00:00:01 |
+|* 13 |             INDEX UNIQUE SCAN         | SYS_C008850 |     1 |       |     0   (0)| 00:00:01 |
 |* 14 |            TABLE ACCESS FULL          | CPU         |  9144 |   107K|  2751   (1)| 00:00:01 |
 |  15 |             SORT AGGREGATE            |             |     1 |    28 |            |          |
-|* 16 |              HASH JOIN                |             |   990 | 27720 | 37087   (1)| 00:00:02 |
-|* 17 |               HASH JOIN               |             |   990 | 18810 | 34332   (1)| 00:00:02 |
+|* 16 |              HASH JOIN                |             |   989 | 27692 | 37086   (1)| 00:00:02 |
+|* 17 |               HASH JOIN               |             |   989 | 18791 | 34331   (1)| 00:00:02 |
 |* 18 |                TABLE ACCESS FULL      | ROOM        |   100 |   900 |   171   (1)| 00:00:01 |
-|  19 |                TABLE ACCESS FULL      | COMPUTER    |   500K|  4882K| 34158   (1)| 00:00:02 |
+|  19 |                TABLE ACCESS FULL      | COMPUTER    |   500K|  4882K| 34157   (1)| 00:00:02 |
 |  20 |               TABLE ACCESS FULL       | CPU         |   500K|  4394K|  2751   (1)| 00:00:01 |
-|* 21 |           INDEX UNIQUE SCAN           | SYS_C009034 |     1 |       |     1   (0)| 00:00:01 |
+|* 21 |           INDEX UNIQUE SCAN           | SYS_C008860 |     1 |       |     1   (0)| 00:00:01 |
 |  22 |          TABLE ACCESS BY INDEX ROWID  | COMPUTER    |     1 |    10 |     2   (0)| 00:00:01 |
 |  23 |        TABLE ACCESS FULL              | GPU         |   500K|  2441K|  2473   (1)| 00:00:01 |
-|* 24 |     INDEX UNIQUE SCAN                 | SYS_C009034 |     1 |       |     1   (0)| 00:00:01 |
+|* 24 |     INDEX UNIQUE SCAN                 | SYS_C008860 |     1 |       |     1   (0)| 00:00:01 |
 |  25 |    TABLE ACCESS BY INDEX ROWID        | COMPUTER    |     1 |    10 |     2   (0)| 00:00:01 |
 -----------------------------------------------------------------------------------------------------
  

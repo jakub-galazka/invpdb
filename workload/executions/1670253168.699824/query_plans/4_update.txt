@@ -1,24 +1,24 @@
-Plan hash value: 3058963997
+Plan hash value: 1548755972
  
 ---------------------------------------------------------------------------------------------------
 | Id  | Operation                     | Name              | Rows  | Bytes | Cost (%CPU)| Time     |
 ---------------------------------------------------------------------------------------------------
-|   0 | UPDATE STATEMENT              |                   |  4436 |   337K| 58075   (1)| 00:00:03 |
+|   0 | UPDATE STATEMENT              |                   |  8924 |   679K| 74251   (1)| 00:00:03 |
 |   1 |  UPDATE                       | SOFTWARE          |       |       |            |          |
-|   2 |   NESTED LOOPS                |                   |  4436 |   337K| 58075   (1)| 00:00:03 |
-|   3 |    NESTED LOOPS               |                   |  4436 |   337K| 58075   (1)| 00:00:03 |
-|   4 |     VIEW                      | VW_NSO_1          |  4436 | 57668 | 49197   (1)| 00:00:02 |
-|   5 |      SORT UNIQUE              |                   |  4436 |   441K|            |          |
-|*  6 |       HASH JOIN SEMI          |                   |  4436 |   441K| 49197   (1)| 00:00:02 |
-|*  7 |        HASH JOIN              |                   |  7916 |   286K| 35533   (1)| 00:00:02 |
-|*  8 |         HASH JOIN             |                   |  1979 | 53433 | 34335   (1)| 00:00:02 |
-|*  9 |          HASH JOIN            |                   |   200 |  3400 |   174   (1)| 00:00:01 |
-|* 10 |           TABLE ACCESS FULL   | ACCOUNT_BUILDING  |     2 |    16 |     3   (0)| 00:00:01 |
+|   2 |   NESTED LOOPS                |                   |  8924 |   679K| 74251   (1)| 00:00:03 |
+|   3 |    NESTED LOOPS               |                   |  8924 |   679K| 74251   (1)| 00:00:03 |
+|   4 |     VIEW                      | VW_NSO_1          |  8924 |   113K| 56392   (1)| 00:00:03 |
+|   5 |      SORT UNIQUE              |                   |  8924 |   888K|            |          |
+|*  6 |       HASH JOIN SEMI          |                   |  8924 |   888K| 56392   (1)| 00:00:03 |
+|*  7 |        HASH JOIN              |                   | 15830 |   571K| 35532   (1)| 00:00:02 |
+|*  8 |         HASH JOIN             |                   |  3958 |   104K| 34334   (1)| 00:00:02 |
+|*  9 |          HASH JOIN            |                   |   400 |  6800 |   174   (1)| 00:00:01 |
+|* 10 |           TABLE ACCESS FULL   | ACCOUNT_BUILDING  |     4 |    32 |     3   (0)| 00:00:01 |
 |  11 |           TABLE ACCESS FULL   | ROOM              | 50000 |   439K|   171   (1)| 00:00:01 |
-|  12 |          TABLE ACCESS FULL    | COMPUTER          |   500K|  4882K| 34158   (1)| 00:00:02 |
+|  12 |          TABLE ACCESS FULL    | COMPUTER          |   500K|  4882K| 34157   (1)| 00:00:02 |
 |  13 |         TABLE ACCESS FULL     | SOFTWARE_COMPUTER |  2000K|    19M|  1185   (3)| 00:00:01 |
-|* 14 |        TABLE ACCESS FULL      | SOFTWARE          |   712K|    44M| 13659   (2)| 00:00:01 |
-|* 15 |     INDEX UNIQUE SCAN         | SYS_C009056       |     1 |       |     1   (0)| 00:00:01 |
+|* 14 |        TABLE ACCESS FULL      | SOFTWARE          |   717K|    44M| 20855   (1)| 00:00:01 |
+|* 15 |     INDEX UNIQUE SCAN         | SYS_C008882       |     1 |       |     1   (0)| 00:00:01 |
 |  16 |    TABLE ACCESS BY INDEX ROWID| SOFTWARE          |     1 |    65 |     2   (0)| 00:00:01 |
 ---------------------------------------------------------------------------------------------------
  

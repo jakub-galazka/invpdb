@@ -1,6 +1,7 @@
 __pycache__
 .venv
 venv
+.env
 erd/*.bak*
 csv
 .vscode
