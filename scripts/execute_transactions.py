@@ -37,7 +37,13 @@ def main():
         print("START", script_name)
         for i in range(ITERATIONS):
             print(f'{i + 1}/{ITERATIONS}')
-            script.add_execution_time(execute_statements(cur, script.get_script_statements()))
+
+            # Remove ROLLBACK statements
+            statements = script.get_script_statements()
+            if len(statements) > 1:
+                statements = statements[:-1]
+
+            script.add_execution_time(execute_statements(cur, statements))
             cur.execute("ALTER SYSTEM FLUSH BUFFER_CACHE")
         print("DONE", script_name)
 
