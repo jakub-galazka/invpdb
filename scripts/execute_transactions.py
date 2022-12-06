@@ -38,7 +38,7 @@ def main():
         for i in range(ITERATIONS):
             print(f'{i + 1}/{ITERATIONS}')
 
-            # Remove ROLLBACK statements
+            # Remove ROLLBACK statement
             statements = script.get_script_statements()
             if len(statements) > 1:
                 statements = statements[:-1]

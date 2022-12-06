@@ -8,7 +8,7 @@
         * RAM clock_speed in {1000, 1333, 1600, 2400}
     ) 
     OR
-    * CPU manufacturer == Intel
+    * CPU manufacturer = Intel
 */
 SELECT COUNT(*) FROM (
     SELECT cp.computer_id, COUNT(*) FROM computer cp
