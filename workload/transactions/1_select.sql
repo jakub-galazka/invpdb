@@ -1,7 +1,7 @@
 /*
     Display COMPUTER.COMPUTER_ID, CPU.MANUFACTURER, COMPUTER.ADD_INFO
     for computers in buildings located in Andorra or Kiribati (BUILDING.COUNTRY)
-    that has CPU.CORES_NUMBER > 8 
+    that have cpu with more than 8 cores (CPU.CORES_NUMBER)
     and COMPUTER.HDD_MEMORY < max COMPUTER.SSD_MEMORY in COMPUTER table
     and COMPUTER.SSD_MEMORY > min COMPUTER.HDD_MEMORY in COMPUTER table
 */

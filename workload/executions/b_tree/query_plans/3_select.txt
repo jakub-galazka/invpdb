@@ -1,33 +1,48 @@
-Plan hash value: 2043253815
+Plan hash value: 1384825180
  
-----------------------------------------------------------------------------------------------
-| Id  | Operation                | Name              | Rows  | Bytes | Cost (%CPU)| Time     |
-----------------------------------------------------------------------------------------------
-|   0 | SELECT STATEMENT         |                   |     1 |       | 59058   (1)| 00:00:03 |
-|   1 |  SORT AGGREGATE          |                   |     1 |       |            |          |
-|   2 |   VIEW                   |                   |   300 |       | 59058   (1)| 00:00:03 |
-|   3 |    HASH GROUP BY         |                   |   300 | 32100 | 59058   (1)| 00:00:03 |
-|*  4 |     HASH JOIN            |                   |  4475 |   467K| 59057   (1)| 00:00:03 |
-|*  5 |      HASH JOIN           |                   | 11873 |   429K| 38284   (1)| 00:00:02 |
-|*  6 |       HASH JOIN          |                   |  2968 | 80136 | 37086   (1)| 00:00:02 |
-|*  7 |        HASH JOIN         |                   |  2968 | 56392 | 34331   (1)| 00:00:02 |
-|*  8 |         TABLE ACCESS FULL| ROOM              |   300 |  2700 |   172   (2)| 00:00:01 |
-|   9 |         TABLE ACCESS FULL| COMPUTER          |   500K|  4882K| 34157   (1)| 00:00:02 |
-|  10 |        TABLE ACCESS FULL | CPU               |   500K|  3906K|  2751   (1)| 00:00:01 |
-|  11 |       TABLE ACCESS FULL  | SOFTWARE_COMPUTER |  2000K|    19M|  1185   (3)| 00:00:01 |
-|* 12 |      VIEW                | VW_GBF_58         |  2000K|   133M| 20760   (1)| 00:00:01 |
-|  13 |       TABLE ACCESS FULL  | SOFTWARE          |  2000K|   123M| 20760   (1)| 00:00:01 |
-----------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+| Id  | Operation                               | Name                     | Rows  | Bytes | Cost (%CPU)| Time     |
+--------------------------------------------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT                        |                          |     1 |       | 58490   (1)| 00:00:03 |
+|   1 |  SORT AGGREGATE                         |                          |     1 |       |            |          |
+|   2 |   VIEW                                  |                          |   300 |       | 58490   (1)| 00:00:03 |
+|   3 |    HASH GROUP BY                        |                          |   300 | 30600 | 58490   (1)| 00:00:03 |
+|*  4 |     HASH JOIN                           |                          |   947 | 96594 | 58489   (1)| 00:00:03 |
+|*  5 |      HASH JOIN                          |                          | 11873 |   429K| 38284   (1)| 00:00:02 |
+|*  6 |       HASH JOIN                         |                          |  2968 | 80136 | 37086   (1)| 00:00:02 |
+|*  7 |        HASH JOIN                        |                          |  2968 | 56392 | 34331   (1)| 00:00:02 |
+|*  8 |         TABLE ACCESS FULL               | ROOM                     |   300 |  2700 |   172   (2)| 00:00:01 |
+|   9 |         TABLE ACCESS FULL               | COMPUTER                 |   500K|  4882K| 34157   (1)| 00:00:02 |
+|  10 |        TABLE ACCESS FULL                | CPU                      |   500K|  3906K|  2751   (1)| 00:00:01 |
+|  11 |       TABLE ACCESS FULL                 | SOFTWARE_COMPUTER        |  2000K|    19M|  1185   (3)| 00:00:01 |
+|* 12 |      TABLE ACCESS BY INDEX ROWID BATCHED| SOFTWARE                 |   269K|    16M| 20203   (1)| 00:00:01 |
+|  13 |       BITMAP CONVERSION TO ROWIDS       |                          |       |       |            |          |
+|  14 |        BITMAP AND                       |                          |       |       |            |          |
+|  15 |         BITMAP OR                       |                          |       |       |            |          |
+|  16 |          BITMAP CONVERSION FROM ROWIDS  |                          |       |       |            |          |
+|* 17 |           INDEX RANGE SCAN              | SOFTWARE_PUBLISHER_INDEX |       |       |  1743   (1)| 00:00:01 |
+|  18 |          BITMAP CONVERSION FROM ROWIDS  |                          |       |       |            |          |
+|* 19 |           INDEX RANGE SCAN              | SOFTWARE_PUBLISHER_INDEX |       |       |  1739   (1)| 00:00:01 |
+|  20 |         BITMAP OR                       |                          |       |       |            |          |
+|  21 |          BITMAP CONVERSION FROM ROWIDS  |                          |       |       |            |          |
+|* 22 |           INDEX RANGE SCAN              | SOFTWARE_PUBLISHER_INDEX |       |       |  1743   (1)| 00:00:01 |
+|  23 |          BITMAP CONVERSION FROM ROWIDS  |                          |       |       |            |          |
+|* 24 |           INDEX RANGE SCAN              | SOFTWARE_PUBLISHER_INDEX |       |       |  1739   (1)| 00:00:01 |
+--------------------------------------------------------------------------------------------------------------------
  
 Predicate Information (identified by operation id):
 ---------------------------------------------------
  
-   4 - access("SC"."SOFTWARE_ID"="ITEM_3")
-       filter("ITEM_2"='IBM' AND "C"."MEMORY">8 OR "ITEM_2"='Google' AND 
-              "ITEM_1">=TO_DATE(' 2023-12-31 00:00:00', 'syyyy-mm-dd hh24:mi:ss'))
+   4 - access("SC"."SOFTWARE_ID"="S"."SOFTWARE_ID")
+       filter("S"."PUBLISHER"='IBM' AND "C"."MEMORY">8 OR "S"."PUBLISHER"='Google' AND 
+              "S"."EXPIRE_DATE">=TO_DATE(' 2023-12-31 00:00:00', 'syyyy-mm-dd hh24:mi:ss'))
    5 - access("CP"."COMPUTER_ID"="SC"."COMPUTER_ID")
    6 - access("CP"."COMPUTER_ID"="C"."COMPUTER_ID")
    7 - access("R"."ROOM_ID"="CP"."ROOM_ID")
    8 - filter("R"."BUILDING_ID"=1 OR "R"."BUILDING_ID"=2 OR "R"."BUILDING_ID"=3)
-  12 - filter("ITEM_2"='IBM' OR "ITEM_2"='Google' AND "ITEM_1">=TO_DATE(' 2023-12-31 
-              00:00:00', 'syyyy-mm-dd hh24:mi:ss'))
+  12 - filter("S"."PUBLISHER"='IBM' OR "S"."EXPIRE_DATE">=TO_DATE(' 2023-12-31 00:00:00', 'syyyy-mm-dd 
+              hh24:mi:ss') AND "S"."PUBLISHER"='Google')
+  17 - access("S"."PUBLISHER"='IBM')
+  19 - access("S"."PUBLISHER"='Google')
+  22 - access("S"."PUBLISHER"='IBM')
+  24 - access("S"."PUBLISHER"='Google')
