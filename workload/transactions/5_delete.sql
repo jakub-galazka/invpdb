@@ -1,7 +1,3 @@
-/* 
-    Delete computers in buildings located in Costa Rica (BUILDING.COUNTRY)
-    where COMPUTER.MEMORY > max GPU.TGP in GPU table divided by 4
-*/
 DELETE FROM computer
 WHERE computer_id IN (
     SELECT cp.computer_id FROM computer cp
@@ -11,4 +7,3 @@ WHERE computer_id IN (
     WHERE LOWER(b.country) = 'costa rica'
     AND g.memory > (SELECT MAX(tgp) / 4 FROM gpu)
 );
-ROLLBACK;

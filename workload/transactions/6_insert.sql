@@ -1,13 +1,3 @@
-/*
-    Assign users to computers with
-    one of first 1000 ram_stick
-    and RAM_STICK.MEMORY < 4
-    or (
-        COMPUTER.HDD_MEMORY < 3000
-        and
-        CPU.MEMORY < 2
-    )
-*/
 INSERT INTO workplace (computer_id, room_id, account_id)
 SELECT cp.computer_id, cp.room_id, a.account_id FROM computer cp
 JOIN room r ON cp.room_id = r.room_id
@@ -19,4 +9,3 @@ JOIN ram_stick rs ON cp.computer_id = rs.computer_id
 WHERE rs.ram_stick_id < 1000
 AND rs.memory < 4 
 OR (cp.hdd_memory < 3000 AND c.memory < 2);
-ROLLBACK;

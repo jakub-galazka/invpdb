@@ -1,12 +1,3 @@
-/*
-    For buildings 1, 2 and 3, count the number of computers in the rooms
-    that have CPU memory > 8 
-    AND (
-        installed software from IBM
-        OR
-        software from Google whose expire_date >= 31/12/2023
-    )
-*/
 SELECT COUNT(*) FROM (
     SELECT r.room_id, COUNT(*) FROM room r
     JOIN building b ON r.building_id = b.building_id

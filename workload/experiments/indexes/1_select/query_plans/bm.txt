@@ -1,0 +1,32 @@
+Plan hash value: 864338854
+ 
+-----------------------------------------------------------------------------------------------------------------------
+| Id  | Operation                        | Name                       | Rows  | Bytes |TempSpc| Cost (%CPU)| Time     |
+-----------------------------------------------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT                 |                            |     1 |    36 |       | 27174   (1)| 00:00:02 |
+|   1 |  SORT AGGREGATE                  |                            |     1 |    36 |       |            |          |
+|*  2 |   HASH JOIN                      |                            |   136K|  4796K|  9864K| 27174   (1)| 00:00:02 |
+|*  3 |    HASH JOIN                     |                            |   296K|  6379K|  1736K|  5200   (2)| 00:00:01 |
+|*  4 |     VIEW                         | index$_join$_002           | 73835 |   865K|       |  1822   (1)| 00:00:01 |
+|*  5 |      HASH JOIN                   |                            |       |       |       |            |          |
+|   6 |       BITMAP CONVERSION TO ROWIDS|                            | 73835 |   865K|       |    82   (0)| 00:00:01 |
+|*  7 |        BITMAP INDEX RANGE SCAN   | COMPUTER_HDD_SSD_MEMORY_BM |       |       |       |            |          |
+|   8 |       INDEX FAST FULL SCAN       | SYS_C008860                | 73835 |   865K|       |  1183   (1)| 00:00:01 |
+|   9 |     TABLE ACCESS FULL            | SOFTWARE_COMPUTER          |  2000K|    19M|       |  1185   (3)| 00:00:01 |
+|* 10 |    TABLE ACCESS FULL             | SOFTWARE                   |   584K|  7992K|       | 20766   (1)| 00:00:01 |
+-----------------------------------------------------------------------------------------------------------------------
+ 
+Predicate Information (identified by operation id):
+---------------------------------------------------
+ 
+   2 - access("SC"."SOFTWARE_ID"="S"."SOFTWARE_ID")
+   3 - access("CP"."COMPUTER_ID"="SC"."COMPUTER_ID")
+   4 - filter("CP"."HDD_MEMORY">10000 AND "CP"."SSD_MEMORY">1000)
+   5 - access(ROWID=ROWID)
+   7 - access("CP"."HDD_MEMORY">10000 AND "CP"."SSD_MEMORY">1000)
+       filter("CP"."HDD_MEMORY"-"CP"."SSD_MEMORY"<15000 AND "CP"."SSD_MEMORY">1000 AND "CP"."HDD_MEMORY">10000)
+  10 - filter("S"."EXPIRE_DATE"<TO_DATE(' 2020-12-31 00:00:00', 'syyyy-mm-dd hh24:mi:ss'))
+ 
+Note
+-----
+   - this is an adaptive plan
