@@ -23,7 +23,7 @@ def explain_plan(cur, statement: str) -> str:
 def measure_execution_times(cur, statements: list[str], iterations: int) -> list[float]:
     execution_times = []
     for i in range(1, iterations + 1):
-        print(f"Iteration {i}/{iterations}")
+        print(f"{i}/{iterations}")
         execution_times.append(execute_statements(cur, statements))
         flush_buffer_cache(cur)
     return execution_times

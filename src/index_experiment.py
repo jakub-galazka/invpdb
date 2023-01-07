@@ -18,8 +18,10 @@ def main():
     cur = conn.cursor()
 
     # Experiments
-    print("\n_________________________ 1_select _________________________\n")
-    do_experiment(cur, "1_select")
+    transaction_names = ["1_select", "2_select", "5_delete"]
+    for name in transaction_names:
+        print(f"\n_________________________ {name} _________________________\n")
+        do_experiment(cur, name)
 
 def do_experiment(cur, transaction_name: str) -> None:
     transaction = read_sql(os.path.join(TRANSACTIONS_DIR, f"{transaction_name}.sql"))
