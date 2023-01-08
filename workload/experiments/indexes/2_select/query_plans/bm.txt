@@ -1,0 +1,31 @@
+Plan hash value: 505353168
+ 
+-------------------------------------------------------------------------------------------------------
+| Id  | Operation                         | Name              | Rows  | Bytes | Cost (%CPU)| Time     |
+-------------------------------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT                  |                   |     1 |    87 | 39997   (1)| 00:00:02 |
+|   1 |  SORT AGGREGATE                   |                   |     1 |    87 |            |          |
+|   2 |   NESTED LOOPS                    |                   |  1989 |   168K| 39997   (1)| 00:00:02 |
+|   3 |    NESTED LOOPS                   |                   | 15659 |   168K| 39997   (1)| 00:00:02 |
+|*  4 |     HASH JOIN                     |                   | 15659 |  1146K|  8662   (2)| 00:00:01 |
+|*  5 |      VIEW                         | index$_join$_005  |  9962 |   632K|  7464   (1)| 00:00:01 |
+|*  6 |       HASH JOIN                   |                   |       |       |            |          |
+|   7 |        BITMAP CONVERSION TO ROWIDS|                   |  9962 |   632K|   159   (0)| 00:00:01 |
+|*  8 |         BITMAP INDEX RANGE SCAN   | SOFTWARE_BM_INDEX |       |       |            |          |
+|   9 |        INDEX FAST FULL SCAN       | SYS_C008882       |  9962 |   632K|  4869   (1)| 00:00:01 |
+|  10 |      TABLE ACCESS FULL            | SOFTWARE_COMPUTER |  2000K|    19M|  1185   (3)| 00:00:01 |
+|* 11 |     INDEX UNIQUE SCAN             | SYS_C008860       |     1 |       |     1   (0)| 00:00:01 |
+|* 12 |    TABLE ACCESS BY INDEX ROWID    | COMPUTER          |     1 |    12 |     2   (0)| 00:00:01 |
+-------------------------------------------------------------------------------------------------------
+ 
+Predicate Information (identified by operation id):
+---------------------------------------------------
+ 
+   4 - access("SC"."SOFTWARE_ID"="S"."SOFTWARE_ID")
+   5 - filter("S"."PUBLISHER"='Google')
+   6 - access(ROWID=ROWID)
+   8 - access("S"."PUBLISHER"='Google')
+       filter(TRUNC(INTERNAL_FUNCTION("S"."EXPIRE_DATE"),'fmyear')>TO_DATE('2023','YYYY') AND 
+              "S"."PUBLISHER"='Google')
+  11 - access("CP"."COMPUTER_ID"="SC"."COMPUTER_ID")
+  12 - filter("CP"."SSD_MEMORY">"CP"."HDD_MEMORY")

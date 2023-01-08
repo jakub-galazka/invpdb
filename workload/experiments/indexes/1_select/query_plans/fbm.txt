@@ -1,0 +1,33 @@
+Plan hash value: 1923071069
+ 
+-------------------------------------------------------------------------------------------------------
+| Id  | Operation                        | Name               | Rows  | Bytes | Cost (%CPU)| Time     |
+-------------------------------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT                 |                    |     1 |    49 | 22921   (1)| 00:00:01 |
+|   1 |  SORT AGGREGATE                  |                    |     1 |    49 |            |          |
+|*  2 |   HASH JOIN                      |                    |  9878 |   472K| 22921   (1)| 00:00:01 |
+|*  3 |    HASH JOIN                     |                    | 21499 |   734K|  2151   (3)| 00:00:01 |
+|*  4 |     VIEW                         | index$_join$_002   |  5346 |   130K|   953   (2)| 00:00:01 |
+|*  5 |      HASH JOIN                   |                    |       |       |            |          |
+|   6 |       BITMAP CONVERSION TO ROWIDS|                    |  5346 |   130K|     3   (0)| 00:00:01 |
+|*  7 |        BITMAP INDEX RANGE SCAN   | COMPUTER_FBM_INDEX |       |       |            |          |
+|   8 |       INDEX FAST FULL SCAN       | SYS_C008860        |  5346 |   130K|  1183   (1)| 00:00:01 |
+|   9 |     TABLE ACCESS FULL            | SOFTWARE_COMPUTER  |  2000K|    19M|  1185   (3)| 00:00:01 |
+|* 10 |    TABLE ACCESS FULL             | SOFTWARE           |   584K|  7992K| 20766   (1)| 00:00:01 |
+-------------------------------------------------------------------------------------------------------
+ 
+Predicate Information (identified by operation id):
+---------------------------------------------------
+ 
+   2 - access("SC"."SOFTWARE_ID"="S"."SOFTWARE_ID")
+   3 - access("CP"."COMPUTER_ID"="SC"."COMPUTER_ID")
+   4 - filter("CP"."SYS_NC00008$"<15000)
+   5 - access(ROWID=ROWID)
+   7 - access("HDD_MEMORY"-"SSD_MEMORY"<15000)
+       filter("CP"."SSD_MEMORY">1000 AND "CP"."HDD_MEMORY">10000 AND 
+              "HDD_MEMORY"-"SSD_MEMORY"<15000)
+  10 - filter("S"."EXPIRE_DATE"<TO_DATE(' 2020-12-31 00:00:00', 'syyyy-mm-dd hh24:mi:ss'))
+ 
+Note
+-----
+   - this is an adaptive plan

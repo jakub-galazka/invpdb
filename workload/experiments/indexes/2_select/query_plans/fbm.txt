@@ -1,0 +1,28 @@
+Plan hash value: 2610063889
+ 
+--------------------------------------------------------------------------------------------------------------
+| Id  | Operation                               | Name               | Rows  | Bytes | Cost (%CPU)| Time     |
+--------------------------------------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT                        |                    |     1 |    88 | 34937   (1)| 00:00:02 |
+|   1 |  SORT AGGREGATE                         |                    |     1 |    88 |            |          |
+|   2 |   NESTED LOOPS                          |                    |  1989 |   170K| 34937   (1)| 00:00:02 |
+|   3 |    NESTED LOOPS                         |                    | 15659 |   170K| 34937   (1)| 00:00:02 |
+|*  4 |     HASH JOIN                           |                    | 15659 |  1162K|  3602   (2)| 00:00:01 |
+|   5 |      TABLE ACCESS BY INDEX ROWID BATCHED| SOFTWARE           |  9962 |   642K|  2404   (1)| 00:00:01 |
+|   6 |       BITMAP CONVERSION TO ROWIDS       |                    |       |       |            |          |
+|*  7 |        BITMAP INDEX RANGE SCAN          | SOFTWARE_FBM_INDEX |       |       |            |          |
+|   8 |      TABLE ACCESS FULL                  | SOFTWARE_COMPUTER  |  2000K|    19M|  1185   (3)| 00:00:01 |
+|*  9 |     INDEX UNIQUE SCAN                   | SYS_C008860        |     1 |       |     1   (0)| 00:00:01 |
+|* 10 |    TABLE ACCESS BY INDEX ROWID          | COMPUTER           |     1 |    12 |     2   (0)| 00:00:01 |
+--------------------------------------------------------------------------------------------------------------
+ 
+Predicate Information (identified by operation id):
+---------------------------------------------------
+ 
+   4 - access("SC"."SOFTWARE_ID"="S"."SOFTWARE_ID")
+   7 - access("S"."PUBLISHER"='Google' AND TRUNC(INTERNAL_FUNCTION("EXPIRE_DATE"),'fmyear')>TO_DATE('2
+              023','YYYY'))
+       filter("S"."PUBLISHER"='Google' AND TRUNC(INTERNAL_FUNCTION("EXPIRE_DATE"),'fmyear')>TO_DATE('2
+              023','YYYY'))
+   9 - access("CP"."COMPUTER_ID"="SC"."COMPUTER_ID")
+  10 - filter("CP"."SSD_MEMORY">"CP"."HDD_MEMORY")
