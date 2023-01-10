@@ -1,0 +1,34 @@
+Plan hash value: 1421085377
+ 
+-----------------------------------------------------------------------------------------------------------------------
+| Id  | Operation                 | Name              | Rows  | Bytes |TempSpc| Cost (%CPU)| Time     | Pstart| Pstop |
+-----------------------------------------------------------------------------------------------------------------------
+|   0 | UPDATE STATEMENT          |                   | 43293 |  1141K|       | 64392   (1)| 00:00:03 |       |       |
+|   1 |  UPDATE                   | SOFTWARE          |       |       |       |            |          |       |       |
+|*  2 |   HASH JOIN RIGHT SEMI    |                   | 43293 |  1141K|  1064K| 64392   (1)| 00:00:03 |       |       |
+|   3 |    VIEW                   | VW_NSO_1          | 43293 |   549K|       | 41094   (1)| 00:00:02 |       |       |
+|*  4 |     HASH JOIN SEMI        |                   | 43293 |  3931K|  3872K| 41089   (1)| 00:00:02 |       |       |
+|*  5 |      HASH JOIN            |                   | 98939 |  2705K|       | 35529   (1)| 00:00:02 |       |       |
+|*  6 |       HASH JOIN           |                   | 24732 |   434K|       | 34331   (1)| 00:00:02 |       |       |
+|*  7 |        TABLE ACCESS FULL  | ROOM              |  2500 | 20000 |       |   171   (1)| 00:00:01 |       |       |
+|   8 |         SORT AGGREGATE    |                   |     1 |     3 |       |            |          |       |       |
+|   9 |          TABLE ACCESS FULL| BUILDING          |   500 |  1500 |       |     5   (0)| 00:00:01 |       |       |
+|  10 |        TABLE ACCESS FULL  | COMPUTER          |   499K|  4882K|       | 34157   (1)| 00:00:02 |       |       |
+|  11 |       TABLE ACCESS FULL   | SOFTWARE_COMPUTER |  2000K|    19M|       |  1185   (3)| 00:00:01 |       |       |
+|  12 |      PARTITION LIST INLIST|                   |   556K|    34M|       |  3336   (2)| 00:00:01 |KEY(I) |KEY(I) |
+|  13 |       TABLE ACCESS FULL   | SOFTWARE_PL       |   556K|    34M|       |  3336   (2)| 00:00:01 |KEY(I) |KEY(I) |
+|  14 |    TABLE ACCESS FULL      | SOFTWARE          |  2000K|    26M|       | 20760   (1)| 00:00:01 |       |       |
+-----------------------------------------------------------------------------------------------------------------------
+ 
+Predicate Information (identified by operation id):
+---------------------------------------------------
+ 
+   2 - access("SOFTWARE_ID"="SOFTWARE_ID")
+   4 - access("S"."SOFTWARE_ID"="SC"."SOFTWARE_ID")
+   5 - access("SC"."COMPUTER_ID"="CP"."COMPUTER_ID")
+   6 - access("CP"."ROOM_ID"="R"."ROOM_ID")
+   7 - filter("R"."FLOOR"< (SELECT SUM("FLOORS_NUMBER")/COUNT("FLOORS_NUMBER")/2 FROM "BUILDING" "BUILDING"))
+ 
+Note
+-----
+   - dynamic statistics used: dynamic sampling (level=2)

@@ -1,0 +1,29 @@
+Plan hash value: 3838583771
+ 
+------------------------------------------------------------------------------------
+| Id  | Operation               | Name     | Rows  | Bytes | Cost (%CPU)| Time     |
+------------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT        |          |     1 |       | 37091   (1)| 00:00:02 |
+|   1 |  SORT AGGREGATE         |          |     1 |       |            |          |
+|   2 |   VIEW                  |          |  1600 |       | 37091   (1)| 00:00:02 |
+|   3 |    HASH GROUP BY        |          |  1600 |   120K| 37091   (1)| 00:00:02 |
+|*  4 |     HASH JOIN           |          |  1600 |   120K| 37090   (1)| 00:00:02 |
+|*  5 |      HASH JOIN          |          |  3947 |   246K| 34336   (1)| 00:00:02 |
+|*  6 |       HASH JOIN         |          |   399 | 21546 |   176   (1)| 00:00:01 |
+|*  7 |        TABLE ACCESS FULL| BUILDING |    20 |   840 |     5   (0)| 00:00:01 |
+|*  8 |        TABLE ACCESS FULL| ROOM     | 10125 |   118K|   171   (1)| 00:00:01 |
+|   9 |       TABLE ACCESS FULL | COMPUTER |   499K|  4882K| 34157   (1)| 00:00:02 |
+|* 10 |      TABLE ACCESS FULL  | CPU      |   202K|  2572K|  2753   (1)| 00:00:01 |
+------------------------------------------------------------------------------------
+ 
+Predicate Information (identified by operation id):
+---------------------------------------------------
+ 
+   4 - access("CP"."COMPUTER_ID"="C"."COMPUTER_ID")
+   5 - access("R"."ROOM_ID"="CP"."ROOM_ID")
+   6 - access("R"."BUILDING_ID"="B"."BUILDING_ID")
+   7 - filter(LOWER("B"."COUNTRY")='costa rica' OR 
+              LOWER("B"."COUNTRY")='luxembourg' OR LOWER("B"."COUNTRY")='rileyshire' OR 
+              LOWER("B"."COUNTRY")='australia')
+   8 - filter("R"."FLOOR"=3)
+  10 - filter("C"."MAX_CLOCK_SPEED">3.5 AND "C"."MIN_CLOCK_SPEED">2.5)

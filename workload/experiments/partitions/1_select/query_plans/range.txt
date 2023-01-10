@@ -1,0 +1,29 @@
+Plan hash value: 714414328
+ 
+-------------------------------------------------------------------------------------------------------------------
+| Id  | Operation                     | Name              | Rows  | Bytes | Cost (%CPU)| Time     | Pstart| Pstop |
+-------------------------------------------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT              |                   |     1 |    63 |  8055   (1)| 00:00:01 |       |       |
+|   1 |  SORT AGGREGATE               |                   |     1 |    63 |            |          |       |       |
+|   2 |   NESTED LOOPS                |                   |  1260 | 79380 |  8055   (1)| 00:00:01 |       |       |
+|   3 |    NESTED LOOPS               |                   |  2743 | 79380 |  8055   (1)| 00:00:01 |       |       |
+|*  4 |     HASH JOIN                 |                   |  2743 |   131K|  2566   (2)| 00:00:01 |       |       |
+|   5 |      PARTITION RANGE ITERATOR |                   |   682 | 26598 |  1368   (1)| 00:00:01 |     4 |     8 |
+|*  6 |       TABLE ACCESS FULL       | COMPUTER_PR       |   682 | 26598 |  1368   (1)| 00:00:01 |     4 |     8 |
+|   7 |      TABLE ACCESS FULL        | SOFTWARE_COMPUTER |  2000K|    19M|  1185   (3)| 00:00:01 |       |       |
+|*  8 |     INDEX UNIQUE SCAN         | SYS_C008882       |     1 |       |     1   (0)| 00:00:01 |       |       |
+|*  9 |    TABLE ACCESS BY INDEX ROWID| SOFTWARE          |     1 |    14 |     2   (0)| 00:00:01 |       |       |
+-------------------------------------------------------------------------------------------------------------------
+ 
+Predicate Information (identified by operation id):
+---------------------------------------------------
+ 
+   4 - access("CP"."COMPUTER_ID"="SC"."COMPUTER_ID")
+   6 - filter("CP"."HDD_MEMORY">10000 AND "CP"."SSD_MEMORY">1000 AND 
+              "CP"."HDD_MEMORY"-"CP"."SSD_MEMORY"<15000)
+   8 - access("SC"."SOFTWARE_ID"="S"."SOFTWARE_ID")
+   9 - filter("S"."EXPIRE_DATE"<TO_DATE(' 2020-12-31 00:00:00', 'syyyy-mm-dd hh24:mi:ss'))
+ 
+Note
+-----
+   - dynamic statistics used: dynamic sampling (level=2)
