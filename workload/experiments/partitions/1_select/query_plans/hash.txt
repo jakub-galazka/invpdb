@@ -1,0 +1,27 @@
+Plan hash value: 1847901893
+ 
+-------------------------------------------------------------------------------------------------------------------
+| Id  | Operation             | Name              | Rows  | Bytes |TempSpc| Cost (%CPU)| Time     | Pstart| Pstop |
+-------------------------------------------------------------------------------------------------------------------
+|   0 | SELECT STATEMENT      |                   |     1 |    63 |       | 61335   (1)| 00:00:03 |       |       |
+|   1 |  SORT AGGREGATE       |                   |     1 |    63 |       |            |          |       |       |
+|*  2 |   HASH JOIN           |                   |   133K|  8238K|    14M| 61335   (1)| 00:00:03 |       |       |
+|*  3 |    TABLE ACCESS FULL  | SOFTWARE          |   584K|  7992K|       | 20766   (1)| 00:00:01 |       |       |
+|*  4 |    HASH JOIN          |                   |   291K|    13M|  3616K| 38998   (1)| 00:00:02 |       |       |
+|   5 |     PARTITION HASH ALL|                   | 72471 |  2760K|       | 35529   (1)| 00:00:02 |     1 |     8 |
+|*  6 |      TABLE ACCESS FULL| COMPUTER_PH       | 72471 |  2760K|       | 35529   (1)| 00:00:02 |     1 |     8 |
+|   7 |     TABLE ACCESS FULL | SOFTWARE_COMPUTER |  2000K|    19M|       |  1185   (3)| 00:00:01 |       |       |
+-------------------------------------------------------------------------------------------------------------------
+ 
+Predicate Information (identified by operation id):
+---------------------------------------------------
+ 
+   2 - access("SC"."SOFTWARE_ID"="S"."SOFTWARE_ID")
+   3 - filter("S"."EXPIRE_DATE"<TO_DATE(' 2020-12-31 00:00:00', 'syyyy-mm-dd hh24:mi:ss'))
+   4 - access("CP"."COMPUTER_ID"="SC"."COMPUTER_ID")
+   6 - filter("CP"."HDD_MEMORY">10000 AND "CP"."SSD_MEMORY">1000 AND 
+              "CP"."HDD_MEMORY"-"CP"."SSD_MEMORY"<15000)
+ 
+Note
+-----
+   - dynamic statistics used: dynamic sampling (level=2)
